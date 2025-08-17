@@ -7,6 +7,7 @@ import Stats from "./components/Stats/Stats";
 import Team from "./components/Team/Team";
 import WhyOrigin from "./components/WhyOrigin/WhyOrigin";
 import Form from "./components/Form/Form";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 const App = () => {
@@ -68,6 +69,7 @@ const App = () => {
       <Services />
       <WhyOrigin />
       <Form />
+      <Footer />
     </>
   );
 };

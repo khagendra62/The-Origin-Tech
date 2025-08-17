@@ -8,42 +8,48 @@ const WhyOrigin = () => {
   const reasons = [
     {
       id: 1,
-      icon: "🎯",
-      title: "We Understand Your Goals",
+      icon: "🚀",
+      title: "Lightning Fast",
       description:
-        "We Begin By Deeply Understanding Your Vision And Objectives. Acknowledging That Each Client Has Unique Aspirations, We Craft Strategies Designed To Achieve Your Goals Comprehensively. By Analyzing Challenges And Opportunities, We Create A Clear Roadmap To Guide You Toward Success With Confidence And Efficiency.",
+        "Experience blazing-fast performance with our optimized infrastructure that delivers results in milliseconds, not seconds.",
     },
     {
       id: 2,
-      icon: "📈",
-      title: "We Enhance Your Strategies In The Digital Market",
+      icon: "🛡️",
+      title: "Bank-Level Security",
       description:
-        "We Work With You To Elevate Your Digital Marketing Strategies, Ensuring Consistent Growth And Helping Your Business Thrive In Today's Competitive Landscape.",
+        "Your data is protected with military-grade encryption and security protocols that exceed industry standards.",
     },
     {
       id: 3,
-      icon: "📊",
-      title: "We Deliver Results, Not Just Promises",
+      icon: "🎯",
+      title: "Precision Accuracy",
       description:
-        "True Success Is Measured By Tangible Outcomes That Stand The Test Of Time. We Focus On Delivering Sustainable Results That Create Long-Term Value And Market Presence, Ensuring Every Investment Yields Optimal Opportunities For Growth And Success.",
+        "Our advanced algorithms ensure 99.9% accuracy in all operations, giving you confidence in every result.",
     },
     {
       id: 4,
-      icon: "🚀",
-      title: "We Scale Your Business",
+      icon: "💎",
+      title: "Premium Quality",
       description:
-        "Our proven methodologies and cutting-edge technologies help scale your business operations efficiently. We provide comprehensive solutions that adapt to your growing needs and market demands.",
+        "Built with the finest attention to detail and crafted for those who demand nothing but the best.",
     },
     {
       id: 5,
-      icon: "💡",
-      title: "We Innovate Continuously",
+      icon: "🌐",
+      title: "Global Reach",
       description:
-        "Innovation is at the heart of everything we do. We stay ahead of industry trends and implement the latest technologies to give your business a competitive edge in the market.",
+        "Connect with users worldwide through our global network of servers and partnerships.",
+    },
+    {
+      id: 6,
+      icon: "🤝",
+      title: "24/7 Support",
+      description:
+        "Our dedicated support team is always here to help you succeed, anytime, anywhere.",
     },
   ];
 
-  // Auto-play functionality
   useEffect(() => {
     if (!isAutoPlaying) return;
 

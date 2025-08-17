@@ -14,7 +14,7 @@ const Team = () => {
       <div className="team-container">
         <div className="team-image-container">
           <div className="image-wrapper">
-            <img src={team} alt="Our team picture" />
+            <img src={team} alt="Our team picture" className="team-image" />
           </div>
         </div>
 

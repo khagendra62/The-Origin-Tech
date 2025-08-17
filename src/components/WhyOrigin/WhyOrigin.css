@@ -97,9 +97,11 @@
   padding: 40px 30px;
   min-width: 350px;
   max-width: 380px;
-  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   position: relative;
   overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  will-change: transform, opacity, filter;
+  transform-origin: center;
 }
 
 .reason-card::before {

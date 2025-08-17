@@ -1,10 +1,12 @@
 .header {
-  position: relative;
-  z-index: 10;
+  position: sticky;
+  top: 15px;
+  z-index: 100;
   padding: 20px 0;
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(192, 192, 192, 0.3);
+  border-top-color: rgba(192, 192, 192, 0.3);
   width: 80vw;
   margin-left: 10vw;
   margin-top: 25px;
