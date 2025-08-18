@@ -1,7 +1,7 @@
 .whatsapp-container {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 2vh;
+  right: 1.5vw;
   z-index: 100;
   cursor: pointer;
 }
@@ -16,6 +16,16 @@
   color: white;
   outline: none;
   border-radius: 50%;
+}
+
+.goToTop {
+  position: fixed;
+  font-size: 3.5rem;
+  bottom: 10vh;
+  right: 1.3vw;
+  z-index: 100;
+  cursor: pointer;
+  color: rgb(66, 235, 235);
 }
 
 .animated-background {

@@ -1,0 +1,33 @@
+.ourWorkContainer {
+  margin: 0;
+  padding: 1rem 4rem;
+  box-sizing: border-box;
+}
+
+.ourWorkFirstPage {
+  display: grid;
+  grid-template-columns: 1.2fr 0.5fr;
+  gap: 40px;
+}
+
+.videoLoop {
+  width: 100%;
+}
+
+.firsthead {
+  color: rgb(0, 110, 255);
+  padding: 1rem 0;
+}
+
+.secondhead {
+  color: rgb(101, 124, 199);
+  padding: 1rem 0;
+}
+
+.discription {
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  font-family: monospace, Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif;
+  text-align: justify;
+}

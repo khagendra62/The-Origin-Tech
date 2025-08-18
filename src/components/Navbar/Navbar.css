@@ -17,7 +17,6 @@
 
 .nav-container {
   max-width: 1200px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,17 +32,11 @@
 }
 
 .logo img {
-  width: 80px;
-  height: 65px;
+  width: 90px;
+  height: 75px;
   border-radius: 10px;
-}
-
-.logo span {
-  color: #ffffff;
-  background: none;
-  -webkit-background-clip: unset;
-  -webkit-text-fill-color: unset;
-  background-clip: unset;
+  padding: 5px;
+  background: linear-gradient(45deg, #32373b, #737f8a, #044280);
 }
 
 .nav-menu {
@@ -72,14 +65,34 @@
   border: none;
   border-radius: 25px;
   font-weight: bold;
+  margin: auto 0;
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 5px 20px rgba(0, 77, 153, 0.3);
 }
 
+.getStarted-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
 .cta-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 30px rgba(0, 77, 153, 0.5);
+  color: white;
+}
+
+.dropdownStyle {
+  display: none;
+  position: fixed;
+  top: 100px;
+  right: 400px;
+  z-index: 3333;
+}
+
+.services:hover .dropdownStyle {
+  display: block;
 }
 
 @media (max-width: 768px) {

@@ -110,7 +110,7 @@ const OriginTechWebsite = () => {
 
         <footer className="footer-coopyright">
           <p>
-            © 2025 Digitaltheorigintech.com | Web Design in Dubai By
+            © 2025 Digitaltheorigintech.com | Web Design in Nepal By
             THE-ORIGIN-TECH
           </p>
           <a href="#policies" className="policies-link">
