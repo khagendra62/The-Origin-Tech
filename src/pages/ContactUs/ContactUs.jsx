@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Form from "../../components/Form/Form";
 import Footer from "../../components/Footer/Footer";
 import WhatsappAndGoToTop from "../../components/WhatsappAndGoToTop/WhatsappAndGoToTop";
-import contactImage from "../../assets/contactImage.png";
+import origintechcontactimage from "../../assets/origintechcontactimage.png";
 import "./ContactUs.css";
 
 const ContactUs = () => {
@@ -11,9 +11,9 @@ const ContactUs = () => {
     <>
       <Navbar />
       <div className="contactImageContainer">
-        <img src={contactImage} alt="The Origin Tech Image" />
-        <h1>Your First Step to Success</h1>
+        <img src={origintechcontactimage} alt="The Origin Tech Image" />
       </div>
+      <h1 className="headOfContacts">Your First Step to Success</h1>
       <Form />
       <Footer />
       <WhatsappAndGoToTop />
