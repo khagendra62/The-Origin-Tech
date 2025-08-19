@@ -1,4 +1,4 @@
-.whatsapp-container {
+/* .whatsapp-container {
   position: fixed;
   bottom: 2vh;
   right: 1.5vw;
@@ -26,7 +26,7 @@
   z-index: 100;
   cursor: pointer;
   color: rgb(66, 235, 235);
-}
+} */
 
 .animated-background {
   position: fixed;

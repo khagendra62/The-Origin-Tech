@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Form from "../../components/Form/Form";
 import Footer from "../../components/Footer/Footer";
 import Stats from "../../components/Stats/Stats";
+import WhatsappAndGoToTop from "../../components/WhatsappAndGoToTop/WhatsappAndGoToTop";
 import ImageSlider from "./ImageSlider";
 import "./AboutUs.css";
 import { Link } from "react-router-dom";
@@ -34,6 +35,7 @@ const AboutUs = () => {
       <ImageSlider />
       <Form />
       <Footer />
+      <WhatsappAndGoToTop />
     </>
   );
 };

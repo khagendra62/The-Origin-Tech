@@ -1,8 +1,8 @@
 .header {
   position: sticky;
-  top: 15px;
+  top: 20px;
   z-index: 100;
-  padding: 20px 0;
+  padding: 10px 0;
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(192, 192, 192, 0.3);
@@ -16,7 +16,6 @@
 }
 
 .nav-container {
-  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,6 +42,7 @@
   display: flex;
   list-style: none;
   gap: 30px;
+  margin-left: 5rem;
 }
 
 .nav-menu a {
@@ -95,6 +95,15 @@
   display: block;
 }
 
+.HamburgerMenu {
+  visibility: hidden;
+}
+
+.hambergerBtn,
+.GiHamburgerMenu {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .nav-container {
     padding: 0 20px;
@@ -102,5 +111,19 @@
 
   .nav-menu {
     display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .cta-button {
+    display: none;
+  }
+
+  .hamburgerBtn,
+  .GiHamburgerMenu {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 3.5rem;
   }
 }

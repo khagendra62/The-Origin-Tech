@@ -1,0 +1,9 @@
+.serviceVideo {
+  display: block;
+}
+
+.videoForServices {
+  background: fixed;
+  width: 60vw;
+  margin: 0 auto;
+}

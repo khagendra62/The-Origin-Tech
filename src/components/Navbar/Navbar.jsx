@@ -1,22 +1,31 @@
+import { useState } from "react";
 import logo from "../../assets/ORIGIN.png";
 import "./Navbar.css";
+import HamburgerMenu from "./HamburgerMenu";
 import { Link } from "react-router-dom";
-import {
-  FaChartLine,
-  FaShareAlt,
-  FaHubspot,
-  FaSearch,
-  FaVideo,
-  FaCube,
-  FaGraduationCap,
-  FaPalette,
-  FaHandshake,
-  FaLaptopCode,
-} from "react-icons/fa";
-import { MdCampaign } from "react-icons/md";
-import { PiStrategy } from "react-icons/pi";
+import { GiHamburgerMenu } from "react-icons/gi";
+// import {
+//   FaChartLine,
+//   FaShareAlt,
+//   FaHubspot,
+//   FaSearch,
+//   FaVideo,
+//   FaCube,
+//   FaGraduationCap,
+//   FaPalette,
+//   FaHandshake,
+//   FaLaptopCode,
+// } from "react-icons/fa";
+// import { MdCampaign } from "react-icons/md";
+// import { PiStrategy } from "react-icons/pi";
 
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <>
       <header className="header">
@@ -27,7 +36,7 @@ const Navbar = () => {
             </div>
           </Link>
           <ul className="nav-menu">
-            <li className="services">
+            <li>
               <Link to={"/services"}>Services </Link>
             </li>
             <li>
@@ -40,16 +49,23 @@ const Navbar = () => {
               <Link to={"/ourwork"}>Our Work </Link>
             </li>
             <li>
-              <Link to={"/contactus"}> Contact</Link>
+              <Link to={"/contactus"}>Contact Us</Link>
             </li>
           </ul>
+
+          <div className="hamburgerBtn" onClick={toggleMenu}>
+            <GiHamburgerMenu className="GiHamburgerMenu" />
+          </div>
+
           <Link to={"/contactus"}>
             <button className="cta-button">Get Started</button>
           </Link>
+
+          {isMenuOpen && <HamburgerMenu className="HamburgerMenu" />}
         </nav>
       </header>
 
-      <div className="dropdownStyle">
+      {/* <div className="dropdownStyle">
         <div className="gridStyle">
           <div className="itemStyle">
             <FaChartLine className="iconStyle" />
@@ -113,9 +129,9 @@ const Navbar = () => {
             <span className="titleStyle">
               Marketing Consultations & Strategies
             </span>
-          </div>
-        </div>
-      </div>
+          </div>  
+        </div>   
+      </div> */}
     </>
   );
 };

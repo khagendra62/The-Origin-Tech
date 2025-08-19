@@ -8,6 +8,7 @@ import Team from "../../components/Team/Team";
 import WhyOrigin from "../../components/WhyOrigin/WhyOrigin";
 import Form from "../../components/Form/Form";
 import Footer from "../../components/Footer/Footer";
+import WhatsappAndGoToTop from "../../components/WhatsappAndGoToTop/WhatsappAndGoToTop";
 import "./Home.css";
 
 const Home = () => {
@@ -70,6 +71,7 @@ const Home = () => {
       <WhyOrigin />
       <Form />
       <Footer />
+      <WhatsappAndGoToTop />
     </>
   );
 };

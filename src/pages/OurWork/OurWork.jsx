@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Form from "../../components/Form/Form";
+import Background from "../../components/Background/Background";
+import WhatsappAndGoToTop from "../../components/WhatsappAndGoToTop/WhatsappAndGoToTop";
 import Footer from "../../components/Footer/Footer";
 import video from "../../assets/3DObject-Asset.mp4";
 import OurWorkServices from "./OurWorkServices";
@@ -37,6 +39,8 @@ const OurWork = () => {
       <OurWorkServices />
       <Form />
       <Footer />
+      <Background />
+      <WhatsappAndGoToTop />
     </>
   );
 };

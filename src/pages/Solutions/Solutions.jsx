@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Form from "../../components/Form/Form";
 import Footer from "../../components/Footer/Footer";
+import WhatsappAndGoToTop from "../../components/WhatsappAndGoToTop/WhatsappAndGoToTop";
 
 const Solutions = () => {
   return (
@@ -9,6 +10,7 @@ const Solutions = () => {
       <Navbar />
       <Form />
       <Footer />
+      <WhatsappAndGoToTop />
     </>
   );
 };
