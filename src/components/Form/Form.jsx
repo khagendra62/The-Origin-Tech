@@ -56,20 +56,31 @@ export default function ModernContactForm() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    await new Promise((resolve) => setTimeout(resolve, 2000));
+    try {
+      const response = await fetch("https://formspree.io/f/mblkveyn", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
 
-    alert(
-      "Thank you for your message! We'll get back to you within 24 hours during business hours (M-F, 9am-5pm PT)."
-    );
-    setFormData({
-      firstName: "",
-      lastName: "",
-      email: "",
-      phone: "",
-      countryCode: "+977",
-      topic: "",
-      message: "",
-    });
+      if (response.ok) {
+        alert("Message sent successfully!");
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          phone: "",
+          countryCode: "+977",
+          topic: "",
+          message: "",
+        });
+      } else {
+        alert("Failed to send. Try again.");
+      }
+    } catch (error) {
+      alert("Error sending message.");
+    }
+
     setIsSubmitting(false);
   };
 
@@ -169,7 +180,7 @@ export default function ModernContactForm() {
               </div>
 
               <div className="right-panel">
-                <div className="form-section">
+                <form className="form-section" onSubmit={handleSubmit}>
                   <div className="form-row">
                     <div className="form-group">
                       <label className="form-label">First Name</label>
@@ -182,9 +193,6 @@ export default function ModernContactForm() {
                           className="form-input"
                           required
                         />
-                        {formData.firstName && (
-                          <span className="required-indicator">**</span>
-                        )}
                       </div>
                     </div>
 
@@ -271,8 +279,7 @@ export default function ModernContactForm() {
                   </div>
 
                   <button
-                    type="button"
-                    onClick={handleSubmit}
+                    type="submit"
                     disabled={isSubmitting}
                     className="submit-button"
                   >
@@ -296,7 +303,7 @@ export default function ModernContactForm() {
                     )}
                     <div className="shimmer"></div>
                   </button>
-                </div>
+                </form>
               </div>
             </div>
           </div>

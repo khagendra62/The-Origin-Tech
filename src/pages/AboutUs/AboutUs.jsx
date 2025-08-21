@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Form from "../../components/Form/Form";
 import Footer from "../../components/Footer/Footer";
 import Stats from "../../components/Stats/Stats";
+import TeamImages from "./TeamImages/TeamImages";
 import WhatsappAndGoToTop from "../../components/WhatsappAndGoToTop/WhatsappAndGoToTop";
 import ImageSlider from "./ImageSlider";
 import "./AboutUs.css";
@@ -33,6 +34,7 @@ const AboutUs = () => {
       </div>
       <Stats />
       <ImageSlider />
+      <TeamImages />
       <Form />
       <Footer />
       <WhatsappAndGoToTop />

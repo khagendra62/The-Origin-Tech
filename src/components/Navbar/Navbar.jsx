@@ -30,26 +30,36 @@ const Navbar = () => {
     <>
       <header className="header">
         <nav className="nav-container">
-          <Link to={"/"}>
+          <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
             <div className="logo">
               <img src={logo} alt="Logo" />
             </div>
           </Link>
           <ul className="nav-menu">
             <li>
-              <Link to={"/services"}>Services </Link>
+              <Link to={"/services"} onClick={() => window.scrollTo(0, 0)}>
+                Services{" "}
+              </Link>
+            </li>
+            {/* <li>
+              <Link to={"/contactus"} onClick={() => window.scrollTo(0, 0)}>
+                Solutions{" "}
+              </Link>
+            </li> */}
+            <li>
+              <Link to={"/aboutus"} onClick={() => window.scrollTo(0, 0)}>
+                About Us{" "}
+              </Link>
             </li>
             <li>
-              <Link to={"/contactus"}>Solutions </Link>
+              <Link to={"/ourwork"} onClick={() => window.scrollTo(0, 0)}>
+                Our Work{" "}
+              </Link>
             </li>
             <li>
-              <Link to={"/aboutus"}>About Us </Link>
-            </li>
-            <li>
-              <Link to={"/ourwork"}>Our Work </Link>
-            </li>
-            <li>
-              <Link to={"/contactus"}>Contact Us</Link>
+              <Link to={"/contactus"} onClick={() => window.scrollTo(0, 0)}>
+                Contact Us
+              </Link>
             </li>
           </ul>
 
@@ -57,81 +67,13 @@ const Navbar = () => {
             <GiHamburgerMenu className="GiHamburgerMenu" />
           </div>
 
-          <Link to={"/contactus"}>
+          <Link to={"/contactus"} onClick={() => window.scrollTo(0, 0)}>
             <button className="cta-button">Get Started</button>
           </Link>
 
           {isMenuOpen && <HamburgerMenu className="HamburgerMenu" />}
         </nav>
       </header>
-
-      {/* <div className="dropdownStyle">
-        <div className="gridStyle">
-          <div className="itemStyle">
-            <FaChartLine className="iconStyle" />
-            <span className="titleStyle">Digital Marketing</span>
-          </div>
-
-          <div className="itemStyle">
-            <PiStrategy className="iconStyle" />
-            <span className="titleStyle">
-              Digital Marketing Strategy Creation
-            </span>
-          </div>
-
-          <div className="itemStyle">
-            <FaLaptopCode className="iconStyle" />
-            <span className="titleStyle">Website & App Development</span>
-          </div>
-
-          <div className="itemStyle">
-            <FaShareAlt className="iconStyle" />
-            <span className="titleStyle">Social Media</span>
-          </div>
-
-          <div className="itemStyle">
-            <MdCampaign className="iconStyle" />
-            <span className="titleStyle">Lead Generation & Campaigns</span>
-          </div>
-
-          <div className="itemStyle">
-            <FaHubspot className="iconStyle" />
-            <span className="titleStyle">HubSpot Services</span>
-          </div>
-
-          <div className="itemStyle">
-            <FaSearch className="iconStyle" />
-            <span className="titleStyle">SEO (Search Engine Optimization)</span>
-          </div>
-
-          <div className="itemStyle">
-            <FaVideo className="iconStyle" />
-            <span className="titleStyle">Video Production</span>
-          </div>
-
-          <div className="itemStyle">
-            <FaCube className="iconStyle" />
-            <span className="titleStyle">Metaverse Experiences</span>
-          </div>
-
-          <div className="itemStyle">
-            <FaGraduationCap className="iconStyle" />
-            <span className="titleStyle">E-learning & Technical Training</span>
-          </div>
-
-          <div className="itemStyle">
-            <FaPalette className="iconStyle" />
-            <span className="titleStyle">Branding Development</span>
-          </div>
-
-          <div className="itemStyle">
-            <FaHandshake className="iconStyle" />
-            <span className="titleStyle">
-              Marketing Consultations & Strategies
-            </span>
-          </div>  
-        </div>   
-      </div> */}
     </>
   );
 };
