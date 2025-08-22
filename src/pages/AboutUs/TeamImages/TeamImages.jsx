@@ -4,6 +4,7 @@ import "./TeamImages.css";
 const TeamImages = () => {
   return (
     <div className="TeamImageContainer">
+      <div className="ourWebTeam">Our Tech Team</div>
       <div className="TeamImageContainer-track">
         <a
           href="https://mcquaig.co.uk/wp-content/uploads/2013/11/Happy-team.jpg"

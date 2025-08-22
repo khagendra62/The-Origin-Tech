@@ -9,11 +9,11 @@ import { FaHubspot } from "react-icons/fa6";
 
 const OurWorkServices = () => {
   const services = [
-    { title: "Website", icon: <CgWebsite /> },
+    { title: "Web and App", icon: <CgWebsite /> },
     { title: "SEO", icon: <FaSearch /> },
     { title: "Lead Generation", icon: <MdLeaderboard /> },
-    { title: "Social", icon: <TbSocial /> },
-    { title: "Video", icon: <FaPhotoVideo /> },
+    { title: "Social Media", icon: <TbSocial /> },
+    { title: "Digital Marketing", icon: <FaPhotoVideo /> },
     { title: "Hubspot", icon: <FaHubspot /> },
   ];
 

@@ -10,6 +10,10 @@
   gap: 40px;
 }
 
+.rightContainer {
+  margin: auto 0;
+}
+
 .videoLoop {
   width: 100%;
 }
@@ -26,8 +30,6 @@
 
 .discription {
   line-height: 1.5rem;
-  font-size: 1.1rem;
-  font-family: monospace, Cambria, Cochin, Georgia, Times, "Times New Roman",
-    serif;
+  font-size: 1.3rem;
   text-align: justify;
 }

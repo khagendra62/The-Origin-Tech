@@ -1,13 +1,13 @@
 import React from "react";
-import "./ContentMarketingServiceListDetail.css";
+import "./EcommerceSolutionServiceListDetail.css";
 import Navbar from "../../Navbar/Navbar";
 import Form from "../../Form/Form";
 import Background from "../../Background/Background";
 import WhatsappAndGoToTop from "../../WhatsappAndGoToTop/WhatsappAndGoToTop";
 import Footer from "../../Footer/Footer";
 
-const ContentMarketingServiceListDetail = () => {
-  return <div>ContentMarketingServiceListDetail</div>;
+const EcommerceSolutionServiceListDetail = () => {
+  return <div>EcommerceSolutionServiceListDetail</div>;
 };
 
-export default ContentMarketingServiceListDetail;
+export default EcommerceSolutionServiceListDetail;

@@ -7,6 +7,14 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 import OurWork from "./pages/OurWork/OurWork";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import NoPage from "./pages/NoPage/NoPage";
+import FormPupup from "./components/Form/FormPopup/FormPopup";
+import WebAppServiceListDetail from "./components/ServiceListDetail/WebAppServiceListDetail/WebAppServiceListDetail";
+import DigitalMarketingServiceListDetail from "./components/ServiceListDetail/DigitalMarketingServiceListDetail/DigitalMarketingServiceListDetail";
+import ContentMarketingServiceListDetail from "./components/ServiceListDetail/ContentMarketingServiceListDetail/ContentMarketingServiceListDetail";
+import EcommerceSolutionServiceListDetail from "./components/ServiceListDetail/EcommerceSolutionServiceListDetail/EcommerceSolutionServiceListDetail";
+import PPCServiceListDetail from "./components/ServiceListDetail/PPCServiceListDetail/PPCServiceListDetail";
+import SEOServiceListDetail from "./components/ServiceListDetail/SEOServiceListDetail/SEOServiceListDetail";
+import SocialMediaServiceListDetail from "./components/ServiceListDetail/SocialMediaServiceListDetail/SocialMediaServiceListDetail";
 
 function App() {
   return (
@@ -19,7 +27,32 @@ function App() {
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/ourwork" element={<OurWork />} />
           <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/formfilling" element={<FormPupup />} />
           <Route path="/*" element={<NoPage />} />
+          <Route
+            path="/services/WebAppServiceListDetail"
+            element={<WebAppServiceListDetail />}
+          />
+          <Route
+            path="/services/DigitalMarketingServiceListDetail"
+            element={<DigitalMarketingServiceListDetail />}
+          />
+          <Route
+            path="/services/WebAppServiceListDetail"
+            element={<WebAppServiceListDetail />}
+          />
+          <Route
+            path="/services/DigitalMarketingServiceListDetail"
+            element={<DigitalMarketingServiceListDetail />}
+          />
+          <Route
+            path="/services/WebAppServiceListDetail"
+            element={<WebAppServiceListDetail />}
+          />
+          <Route
+            path="/services/DigitalMarketingServiceListDetail"
+            element={<DigitalMarketingServiceListDetail />}
+          />
         </Routes>
       </Router>
     </div>

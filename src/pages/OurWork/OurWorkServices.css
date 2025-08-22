@@ -15,7 +15,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  justify-items: center;
 }
 
 .service-card {
@@ -28,6 +27,7 @@
   min-width: 300px;
   object-fit: contain;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .service-label {

@@ -7,15 +7,19 @@ import digitalImg from "../../../assets/ServicesImage/digitalmarketing.png";
 import socialImg from "../../../assets/ServicesImage/socialmedia.png";
 import EcommerceASolution from "../../../assets/ServicesImage/EcommerceSolution.png";
 import ppcImg from "../../../assets/ServicesImage/ppcImg.jpg";
-// import { Link } from "react-router-dom";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const ServiceList = () => {
-  //   const navigate = useNavigate();
+  const navigate = useNavigate();
 
-  //   const handleLearnMoreClick = () => {
-  //     navigate("/services/ServiceListdetails");
-  //   };
+  const handleShowMoreClickWebAppServiceListDetail = () => {
+    navigate("/services/WebAppServiceListDetail");
+    window.scrollTo(0, 0);
+  };
+  const handleShowMoreClickDigitalMarketingServiceListDetail = () => {
+    navigate("/services/DigitalMarketingServiceListDetail");
+    window.scrollTo(0, 0);
+  };
 
   return (
     <>
@@ -31,10 +35,12 @@ const ServiceList = () => {
             user-friendly designs that work seamlessly across all devices.
           </p>
 
-          {/* <button onClick={handleLearnMoreClick} className="learn-more-link">
-            Learn More
-          </button> */}
-          <button className="learn-more-btn">Learn More</button>
+          <button
+            onClick={handleShowMoreClickWebAppServiceListDetail}
+            className="show-more-btn"
+          >
+            Show More
+          </button>
         </div>
       </div>
 
@@ -47,7 +53,12 @@ const ServiceList = () => {
             and designed to maximize visibility, engagement, and conversions.
           </p>
 
-          <button className="learn-more-btn">Learn More</button>
+          <button
+            className="show-more-btn"
+            onClick={handleShowMoreClickDigitalMarketingServiceListDetail}
+          >
+            Show More
+          </button>
         </div>
 
         <div className="service-image">
@@ -68,7 +79,12 @@ const ServiceList = () => {
             real results.
           </p>
 
-          <button className="learn-more-btn">Learn More</button>
+          <button
+            className="show-more-btn"
+            onClick={handleShowMoreClickWebAppServiceListDetail}
+          >
+            Show More
+          </button>
         </div>
       </div>
 
@@ -82,8 +98,13 @@ const ServiceList = () => {
             rankings and drive conversions.
           </p>
 
-          {/* Learn More Button */}
-          <button className="learn-more-btn">Learn More</button>
+          {/* Show More Button */}
+          <button
+            className="show-more-btn"
+            onClick={handleShowMoreClickWebAppServiceListDetail}
+          >
+            Show More
+          </button>
         </div>
 
         <div className="service-image">
@@ -104,7 +125,12 @@ const ServiceList = () => {
             generate qualified leads and maximize ROI.
           </p>
 
-          <button className="learn-more-btn">Learn More</button>
+          <button
+            className="show-more-btn"
+            onClick={handleShowMoreClickWebAppServiceListDetail}
+          >
+            Show More
+          </button>
         </div>
       </div>
 
@@ -116,8 +142,12 @@ const ServiceList = () => {
             with your audience and establish thought leadership.
           </p>
 
-          {/* Learn More Button */}
-          <button className="learn-more-btn">Learn More</button>
+          <button
+            className="show-more-btn"
+            onClick={handleShowMoreClickWebAppServiceListDetail}
+          >
+            Show More
+          </button>
         </div>
 
         <div className="service-image">
@@ -136,7 +166,12 @@ const ServiceList = () => {
             optimized shopping experiences for maximum conversions.
           </p>
 
-          <button className="learn-more-btn">Learn More</button>
+          <button
+            className="show-more-btn"
+            onClick={handleShowMoreClickWebAppServiceListDetail}
+          >
+            Show More
+          </button>
         </div>
       </div>
     </>

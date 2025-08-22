@@ -37,8 +37,7 @@
   color: #ccc;
 }
 
-/* ✅ Learn More Button */
-.learn-more-btn {
+.show-more-btn {
   margin-top: 25px;
   padding: 12px 30px;
   background: #00e6e6;
@@ -51,7 +50,7 @@
   transition: 0.3s ease;
 }
 
-.learn-more-btn:hover {
+.show-more-btn:hover {
   background: #00cccc;
 }
 

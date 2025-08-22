@@ -21,7 +21,7 @@
 .goToTop {
   position: fixed;
   font-size: 3.5rem;
-  bottom: 10vh;
+  bottom: 8vh;
   right: 1.3vw;
   z-index: 100;
   cursor: pointer;

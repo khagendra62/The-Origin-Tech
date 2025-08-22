@@ -104,6 +104,15 @@
   display: none;
 }
 
+/* .FormPupupFilling {
+  z-index: 1000;
+  position: absolute;
+  top: 3vh;
+  width: 70vw;
+  background-color: red;
+  border-radius: 10px;
+} */
+
 @media (max-width: 768px) {
   .nav-container {
     padding: 0 20px;

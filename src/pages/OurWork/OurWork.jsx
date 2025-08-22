@@ -19,8 +19,8 @@ const OurWork = () => {
             <h1 className="secondhead">The Proof is in the Project</h1>
             <p className="discription">
               Would you like to see some examples of what we can do for you? At
-              NEXA, we have the skill and know-how to design, develop and
-              execute projects that boost your brand. We are a team of keen
+              The Origin Tech, we have the skill and know-how to design, develop
+              and execute projects that boost your brand. We are a team of keen
               strategists who strive to stay on top of design trends and enable
               technologies to assist our clients in achieving quality lead
               generation and conversion goals. With over 300 active global

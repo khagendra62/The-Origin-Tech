@@ -6,8 +6,11 @@ import { useNavigate } from "react-router-dom";
 const WhatsappAndGoToTop = () => {
   const navigate = useNavigate();
   const handleNavigation = () => {
-    // navigate("/");
-    window.scrollTo(0, 0);
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
   };
 
   const handleWhatsAppClick = () => {
