@@ -352,7 +352,7 @@ const DigitalMarketingServiceListDetail = () => {
             </ul>
           </div>
 
-          <div class="card">
+          <div class="digitalcard">
             <div class="digitalcard-icon icon-pink">
               <svg
                 width="32"
@@ -378,7 +378,7 @@ const DigitalMarketingServiceListDetail = () => {
             </ul>
           </div>
 
-          <div class="card">
+          <div class="digitalcard">
             <div class="digitalcard-icon icon-purple">
               <svg
                 width="32"
@@ -445,7 +445,7 @@ const DigitalMarketingServiceListDetail = () => {
 
         <div class="digitalservices-section">
           <h2 class="digitalsection-title">Our Digital Marketing Services</h2>
-          <div class="digitalservices-digitalgrid">
+          <div class="digitalservices-digitalgrid digitalservices-grid">
             <div class="digitalservice-item">
               <svg
                 class="digitalservice-icon"
@@ -517,22 +517,22 @@ const DigitalMarketingServiceListDetail = () => {
         </div>
 
         <h2 class="digitalsection-title">Proven Results</h2>
-        <div class="digitalstats-digitalgrid">
-          <div class="digitalstat-card">
-            <div class="digitalstat-number">300%</div>
-            <div class="digitalstat-label">Average Traffic Increase</div>
+        <div class="digitalstats-grid">
+          <div class="digitalstats-card">
+            <div class="digitalstats-number">300%</div>
+            <div class="digitalstats-label">Average Traffic Increase</div>
           </div>
-          <div class="digitalstat-card">
-            <div class="digitalstat-number">150%</div>
-            <div class="digitalstat-label">ROI Improvement</div>
+          <div class="digitalstats-card">
+            <div class="digitalstats-number">150%</div>
+            <div class="digitalstats-label">ROI Improvement</div>
           </div>
-          <div class="digitalstat-card">
-            <div class="digitalstat-number">85%</div>
-            <div class="digitalstat-label">Client Retention Rate</div>
+          <div class="digitalstats-card">
+            <div class="digitalstats-number">85%</div>
+            <div class="digitalstats-label">Client Retention Rate</div>
           </div>
-          <div class="digitalstat-card">
-            <div class="digitalstat-number">50+</div>
-            <div class="digitalstat-label">Successful Campaigns</div>
+          <div class="digitalstats-card">
+            <div class="digitalstats-number">50+</div>
+            <div class="digitalstats-label">Successful Campaigns</div>
           </div>
         </div>
 

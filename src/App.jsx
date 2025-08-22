@@ -46,8 +46,8 @@ function App() {
             element={<DigitalMarketingServiceListDetail />}
           />
           <Route
-            path="/services/WebAppServiceListDetail"
-            element={<WebAppServiceListDetail />}
+            path="/services/ContentMarketingServiceListDetail"
+            element={<ContentMarketingServiceListDetail />}
           />
           <Route
             path="/services/DigitalMarketingServiceListDetail"

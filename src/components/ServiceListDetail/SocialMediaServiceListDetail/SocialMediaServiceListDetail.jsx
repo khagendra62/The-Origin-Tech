@@ -7,7 +7,16 @@ import WhatsappAndGoToTop from "../../WhatsappAndGoToTop/WhatsappAndGoToTop";
 import Footer from "../../Footer/Footer";
 
 const SocialMediaServiceListDetail = () => {
-  return <div>SocialMediaServiceListDetail</div>;
+  return (
+    <>
+      <div>ContentMarketingServiceListDetail</div>
+      <Navbar />
+      <Form />
+      <Footer />
+      <Background />
+      <WhatsappAndGoToTop />
+    </>
+  );
 };
 
 export default SocialMediaServiceListDetail;

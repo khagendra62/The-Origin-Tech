@@ -21,6 +21,10 @@ const ServiceList = () => {
     window.scrollTo(0, 0);
   };
 
+  const ContentMarketingServiceListDetail = () => {
+    navigate("/services/ContentMarketingServiceListDetail");
+    window.scrollTo(0, 0);
+  };
   return (
     <>
       <div className="service-container">
@@ -98,7 +102,6 @@ const ServiceList = () => {
             rankings and drive conversions.
           </p>
 
-          {/* Show More Button */}
           <button
             className="show-more-btn"
             onClick={handleShowMoreClickWebAppServiceListDetail}
@@ -144,7 +147,7 @@ const ServiceList = () => {
 
           <button
             className="show-more-btn"
-            onClick={handleShowMoreClickWebAppServiceListDetail}
+            onClick={ContentMarketingServiceListDetail}
           >
             Show More
           </button>

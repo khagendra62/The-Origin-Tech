@@ -1,14 +1,24 @@
 import React from "react";
 import "./Footer.css";
+import { useNavigate } from "react-router-dom";
 
 const OriginTechWebsite = () => {
+  const navigate = useNavigate;
+  const handleOnclickContactUs = () => {
+    navigate("/contactus");
+  };
   return (
     <div>
       <div className="footer-container">
         <div className="first-column">
           <div className="hero-text">
             <h2>Your growth starts here</h2>
-            <button className="cta-button">Request a Quote</button>
+            <button
+              className="cta-button"
+              onClick={() => handleOnclickContactUs}
+            >
+              Request a Quote
+            </button>
           </div>
           <div className="links-section">
             <ul>
@@ -109,13 +119,10 @@ const OriginTechWebsite = () => {
         </div>
 
         <footer className="footer-coopyright">
-          <p>
-            © 2025 Digitaltheorigintech.com | Web Design in Nepal By
-            THE-ORIGIN-TECH
-          </p>
-          <a href="#policies" className="policies-link">
-            Policies & Commitments
-          </a>
+          © 2025 The Origin Tech. All rights reserved. |{" "}
+          <a href="/privacy-policy">Privacy Policy</a> |{" "}
+          <a href="/terms-of-service">Terms of Service</a> |{" "}
+          <a onClick={() => handleOnclickContactUs}>Contact Us</a>
         </footer>
       </div>
     </div>

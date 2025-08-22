@@ -7,7 +7,16 @@ import WhatsappAndGoToTop from "../../WhatsappAndGoToTop/WhatsappAndGoToTop";
 import Footer from "../../Footer/Footer";
 
 const EcommerceSolutionServiceListDetail = () => {
-  return <div>EcommerceSolutionServiceListDetail</div>;
+  return (
+    <>
+      <div>ContentMarketingServiceListDetail</div>
+      <Navbar />
+      <Form />
+      <Footer />
+      <Background />
+      <WhatsappAndGoToTop />
+    </>
+  );
 };
 
 export default EcommerceSolutionServiceListDetail;
