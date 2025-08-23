@@ -90,7 +90,8 @@
 .ourWebTeam {
   position: absolute;
   top: 4rem;
-  left: 27rem;
+  /* left: 27rem; */
+  left: 30rem;
   background-color: black;
   color: rgb(144, 181, 214);
   font-size: 5rem;
