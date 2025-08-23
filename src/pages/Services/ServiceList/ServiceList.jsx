@@ -16,6 +16,7 @@ const ServiceList = () => {
     navigate("/services/WebAppServiceListDetail");
     window.scrollTo(0, 0);
   };
+
   const handleShowMoreClickDigitalMarketingServiceListDetail = () => {
     navigate("/services/DigitalMarketingServiceListDetail");
     window.scrollTo(0, 0);
@@ -23,6 +24,26 @@ const ServiceList = () => {
 
   const ContentMarketingServiceListDetail = () => {
     navigate("/services/ContentMarketingServiceListDetail");
+    window.scrollTo(0, 0);
+  };
+
+  const handleShowMoreClickPPCServiceListDetail = () => {
+    navigate("/services/PPCServiceListDetail");
+    window.scrollTo(0, 0);
+  };
+
+  const handleShowMoreClickSEOServiceListDetail = () => {
+    navigate("/services/SEOServiceListDetail");
+    window.scrollTo(0, 0);
+  };
+
+  const handleShowMoreClickSocialMediaServiceListDetail = () => {
+    navigate("/services/SocialMediaServiceListDetail");
+    window.scrollTo(0, 0);
+  };
+
+  const handleShowMoreClickEcommerceServiceListDetail = () => {
+    navigate("/services/EcommerceServiceListDetail");
     window.scrollTo(0, 0);
   };
   return (
@@ -85,7 +106,7 @@ const ServiceList = () => {
 
           <button
             className="show-more-btn"
-            onClick={handleShowMoreClickWebAppServiceListDetail}
+            onClick={handleShowMoreClickSocialMediaServiceListDetail}
           >
             Show More
           </button>
@@ -104,7 +125,7 @@ const ServiceList = () => {
 
           <button
             className="show-more-btn"
-            onClick={handleShowMoreClickWebAppServiceListDetail}
+            onClick={handleShowMoreClickSEOServiceListDetail}
           >
             Show More
           </button>
@@ -130,7 +151,7 @@ const ServiceList = () => {
 
           <button
             className="show-more-btn"
-            onClick={handleShowMoreClickWebAppServiceListDetail}
+            onClick={handleShowMoreClickPPCServiceListDetail}
           >
             Show More
           </button>
@@ -171,7 +192,7 @@ const ServiceList = () => {
 
           <button
             className="show-more-btn"
-            onClick={handleShowMoreClickWebAppServiceListDetail}
+            onClick={handleShowMoreClickEcommerceServiceListDetail}
           >
             Show More
           </button>

@@ -139,11 +139,11 @@ const WhyOrigin = () => {
           </button>
         </div>
 
-        <div className="dots-container">
+        <div className="btn-dots-container">
           {reasons.map((_, index) => (
             <button
               key={index}
-              className={`dot ${index === currentSlide ? "active" : ""}`}
+              className={`btn-dot ${index === currentSlide ? "active" : ""}`}
               onClick={() => goToSlide(index)}
             />
           ))}

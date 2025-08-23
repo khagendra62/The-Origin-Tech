@@ -2,7 +2,7 @@ import { useState } from "react";
 import logo from "../../assets/ORIGIN.png";
 import "./Navbar.css";
 import HamburgerMenu from "./HamburgerMenu";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import FormPupup from "../Form/FormPopup/FormPopup";
 
@@ -19,41 +19,65 @@ const Navbar = () => {
     <>
       <header className="header">
         <nav className="nav-container">
-          <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+            to={"/"}
+            onClick={() => window.scrollTo(0, 0)}
+          >
             <div className="logo">
               <img src={logo} alt="Logo" />
             </div>
-          </Link>
+          </NavLink>
 
           <ul className="nav-menu">
             <li>
-              <Link to={"/services"} onClick={() => window.scrollTo(0, 0)}>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+                to={"/services"}
+                onClick={() => window.scrollTo(0, 0)}
+              >
                 Services{" "}
-              </Link>
+              </NavLink>
             </li>
 
-            {/* <li>
-              <Link to={"/contactus"} onClick={() => window.scrollTo(0, 0)}>
-                Solutions{" "}
-              </Link>
-            </li> */}
-
             <li>
-              <Link to={"/aboutus"} onClick={() => window.scrollTo(0, 0)}>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+                to={"/aboutus"}
+                onClick={() => window.scrollTo(0, 0)}
+              >
                 About Us{" "}
-              </Link>
+              </NavLink>
             </li>
 
             <li>
-              <Link to={"/ourwork"} onClick={() => window.scrollTo(0, 0)}>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+                to={"/ourwork"}
+                onClick={() => window.scrollTo(0, 0)}
+              >
                 Our Work{" "}
-              </Link>
+              </NavLink>
             </li>
 
             <li>
-              <Link to={"/contactus"} onClick={() => window.scrollTo(0, 0)}>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+                to={"/contactus"}
+                onClick={() => window.scrollTo(0, 0)}
+              >
                 Contact Us
-              </Link>
+              </NavLink>
             </li>
           </ul>
 
@@ -61,7 +85,7 @@ const Navbar = () => {
             <GiHamburgerMenu className="GiHamburgerMenu" />
           </div>
 
-          <Link
+          <NavLink
             to={"/contactus"}
             onClick={() =>
               window.scrollTo({ top: window.innerHeight, behavior: "smooth" })
@@ -73,7 +97,7 @@ const Navbar = () => {
             >
               Get Started
             </button>
-          </Link>
+          </NavLink>
 
           {isMenuOpen && <HamburgerMenu className="HamburgerMenu" />}
         </nav>

@@ -31,11 +31,11 @@
 }
 
 .logo img {
-  width: 90px;
+  width: 95px;
   height: 75px;
-  border-radius: 10px;
+  border-radius: 6px;
   padding: 5px;
-  background: linear-gradient(45deg, #32373b, #737f8a, #044280);
+  background: linear-gradient(45deg, #0982e6, #5690c7, #327cc7);
 }
 
 .nav-menu {
@@ -53,8 +53,14 @@
   position: relative;
 }
 
-.nav-menu a:hover {
-  color: #004d99;
+.nav-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.nav-link.active {
+  color: #04b8ff;
+  font-weight: 800;
   text-shadow: 0 0 10px rgba(0, 77, 153, 0.5);
 }
 
@@ -68,7 +74,7 @@
   margin: auto 0;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 5px 20px rgba(0, 77, 153, 0.3);
+  box-shadow: 0 5px 20px rgba(6, 124, 243, 0.3);
 }
 
 .getStarted-btn {

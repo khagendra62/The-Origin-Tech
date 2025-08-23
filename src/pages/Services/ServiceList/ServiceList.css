@@ -21,8 +21,9 @@
 
 .service-content {
   flex: 1;
-  margin-right: 40px; /* space between text and image */
+  margin-right: 40px;
   margin-left: 40px;
+  position: relative;
 }
 
 .service-content h2 {

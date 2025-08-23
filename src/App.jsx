@@ -11,7 +11,7 @@ import FormPupup from "./components/Form/FormPopup/FormPopup";
 import WebAppServiceListDetail from "./components/ServiceListDetail/WebAppServiceListDetail/WebAppServiceListDetail";
 import DigitalMarketingServiceListDetail from "./components/ServiceListDetail/DigitalMarketingServiceListDetail/DigitalMarketingServiceListDetail";
 import ContentMarketingServiceListDetail from "./components/ServiceListDetail/ContentMarketingServiceListDetail/ContentMarketingServiceListDetail";
-import EcommerceSolutionServiceListDetail from "./components/ServiceListDetail/EcommerceSolutionServiceListDetail/EcommerceSolutionServiceListDetail";
+import EcommerceServiceListDetail from "./components/ServiceListDetail/EcommerceServiceListDetail/EcommerceServiceListDetail";
 import PPCServiceListDetail from "./components/ServiceListDetail/PPCServiceListDetail/PPCServiceListDetail";
 import SEOServiceListDetail from "./components/ServiceListDetail/SEOServiceListDetail/SEOServiceListDetail";
 import SocialMediaServiceListDetail from "./components/ServiceListDetail/SocialMediaServiceListDetail/SocialMediaServiceListDetail";
@@ -38,20 +38,24 @@ function App() {
             element={<DigitalMarketingServiceListDetail />}
           />
           <Route
-            path="/services/WebAppServiceListDetail"
-            element={<WebAppServiceListDetail />}
+            path="/services/SEOServiceListDetail"
+            element={<SEOServiceListDetail />}
           />
           <Route
-            path="/services/DigitalMarketingServiceListDetail"
-            element={<DigitalMarketingServiceListDetail />}
+            path="/services/PPCServiceListDetail"
+            element={<PPCServiceListDetail />}
           />
           <Route
             path="/services/ContentMarketingServiceListDetail"
             element={<ContentMarketingServiceListDetail />}
           />
           <Route
-            path="/services/DigitalMarketingServiceListDetail"
-            element={<DigitalMarketingServiceListDetail />}
+            path="/services/SocialMediaServiceListDetail"
+            element={<SocialMediaServiceListDetail />}
+          />
+          <Route
+            path="/services/EcommerceServiceListDetail"
+            element={<EcommerceServiceListDetail />}
           />
         </Routes>
       </Router>

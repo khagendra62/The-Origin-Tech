@@ -297,9 +297,9 @@ const WebAppServiceListDetail = () => {
         </div>
       </div>
       <div className="container">
-        <div className="webAppgrid webAppgrid-3">
+        <div className="webAppgrid = webApptech-grid webAppgrid grid webApptech-grid-3">
           <div className="webAppcard">
-            <div className="webAppcard-icon icon-blue">
+            <div className="webAppcard-icon webAppicon-blue">
               <svg
                 width="32"
                 height="32"
@@ -318,7 +318,7 @@ const WebAppServiceListDetail = () => {
               Creating powerful, responsive websites that deliver exceptional
               user experiences across all devices and browsers.
             </p>
-            <ul className="features">
+            <ul className="webAppfeatures">
               <li>Responsive Design</li>
               <li>SEO Optimized</li>
               <li>Fast Loading</li>
@@ -326,8 +326,8 @@ const WebAppServiceListDetail = () => {
             </ul>
           </div>
 
-          <div className="card">
-            <div className="webAppcard-icon icon-purple">
+          <div className="webAppcard">
+            <div className="webAppcard-icon webAppicon-purple">
               <svg
                 width="32"
                 height="32"
@@ -345,7 +345,7 @@ const WebAppServiceListDetail = () => {
               Building native and cross-platform mobile applications that engage
               users and drive business growth.
             </p>
-            <ul className="features">
+            <ul className="webAppfeatures">
               <li>iOS & Android</li>
               <li>Cross-Platform</li>
               <li>Push Notifications</li>
@@ -353,8 +353,8 @@ const WebAppServiceListDetail = () => {
             </ul>
           </div>
 
-          <div className="card">
-            <div className="webAppcard-icon icon-green">
+          <div className="webAppcard">
+            <div className="webAppcard-icon webAppicon-green">
               <svg
                 width="32"
                 height="32"
@@ -372,7 +372,7 @@ const WebAppServiceListDetail = () => {
               Complete end-to-end development covering both frontend user
               interfaces and robust backend systems.
             </p>
-            <ul className="features">
+            <ul className="webAppfeatures">
               <li>Frontend & Backend</li>
               <li>API Development</li>
               <li>Database Design</li>
@@ -382,7 +382,7 @@ const WebAppServiceListDetail = () => {
         </div>
 
         <h2 className="webAppsection-title">Our Development Process</h2>
-        <div className="webAppgrid webAppgrid-4">
+        <div className="webAppgrid = webApptech-grid webAppgrid grid webApptech-grid-4">
           <div className="webAppprocess-card">
             <div className="webAppprocess-step">01</div>
             <h4 className="webAppprocess-title">Discovery & Planning</h4>
@@ -417,53 +417,53 @@ const WebAppServiceListDetail = () => {
           </div>
         </div>
 
-        <div className="tech-section">
+        <div className="webApptech-section">
           <h2 className="section-title">Technology Stack</h2>
-          <div className="tech-webAppgrid">
-            <div className="tech-category">
-              <h4 className="tech-category-title">Frontend</h4>
-              <div className="tech-item">React</div>
-              <div className="tech-item">Vue.js</div>
-              <div className="tech-item">Angular</div>
-              <div className="tech-item">Next.js</div>
-              <div className="tech-item">TypeScript</div>
+          <div className="webApptech-webAppgrid webApptech webApptech-grid">
+            <div className="webApptech-category">
+              <h4 className="webApptech-category-title">Frontend</h4>
+              <div className="webApptech-item">React</div>
+              <div className="webApptech-item">Vue.js</div>
+              <div className="webApptech-item">Angular</div>
+              <div className="webApptech-item">Next.js</div>
+              <div className="webApptech-item">TypeScript</div>
             </div>
-            <div className="tech-category">
-              <h4 className="tech-category-title">Backend</h4>
-              <div className="tech-item">Node.js</div>
-              <div className="tech-item">Python</div>
-              <div className="tech-item">PHP</div>
-              <div className="tech-item">Express.js</div>
-              <div className="tech-item">Django</div>
+            <div className="webApptech-category">
+              <h4 className="webApptech-category-title">Backend</h4>
+              <div className="webApptech-item">Node.js</div>
+              <div className="webApptech-item">Python</div>
+              <div className="webApptech-item">PHP</div>
+              <div className="webApptech-item">Express.js</div>
+              <div className="webApptech-item">Django</div>
             </div>
-            <div className="tech-category">
-              <h4 className="tech-category-title">Mobile</h4>
-              <div className="tech-item">React Native</div>
-              <div className="tech-item">Flutter</div>
-              <div className="tech-item">Swift</div>
-              <div className="tech-item">Kotlin</div>
-              <div className="tech-item">Xamarin</div>
+            <div className="webApptech-category">
+              <h4 className="webApptech-category-title">Mobile</h4>
+              <div className="webApptech-item">React Native</div>
+              <div className="webApptech-item">Flutter</div>
+              <div className="webApptech-item">Swift</div>
+              <div className="webApptech-item">Kotlin</div>
+              <div className="webApptech-item">Xamarin</div>
             </div>
-            <div className="tech-category">
-              <h4 className="tech-category-title">Database</h4>
-              <div className="tech-item">MongoDB</div>
-              <div className="tech-item">PostgreSQL</div>
-              <div className="tech-item">MySQL</div>
-              <div className="tech-item">Firebase</div>
-              <div className="tech-item">Redis</div>
+            <div className="webApptech-category">
+              <h4 className="webApptech-category-title">Database</h4>
+              <div className="webApptech-item">MongoDB</div>
+              <div className="webApptech-item">PostgreSQL</div>
+              <div className="webApptech-item">MySQL</div>
+              <div className="webApptech-item">Firebase</div>
+              <div className="webApptech-item">Redis</div>
             </div>
-            <div className="tech-category">
-              <h4 className="tech-category-title">Cloud</h4>
-              <div className="tech-item">AWS</div>
-              <div className="tech-item">Google Cloud</div>
-              <div className="tech-item">Azure</div>
-              <div className="tech-item">Docker</div>
-              <div className="tech-item">Kubernetes</div>
+            <div className="webApptech-category">
+              <h4 className="webApptech-category-title">Cloud</h4>
+              <div className="webApptech-item">AWS</div>
+              <div className="webApptech-item">Google Cloud</div>
+              <div className="webApptech-item">Azure</div>
+              <div className="webApptech-item">Docker</div>
+              <div className="webApptech-item">Kubernetes</div>
             </div>
           </div>
         </div>
 
-        <div className="webAppbenefits-webAppgrid">
+        <div className="webAppbenefits-webAppgrid webAppbenefits webApptech-grid">
           <div>
             <h3 className="section-title">
               Why Choose Our Development Services?

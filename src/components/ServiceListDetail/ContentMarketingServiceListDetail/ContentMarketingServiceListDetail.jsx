@@ -12,11 +12,11 @@ const ContentMarketingServiceListDetail = () => {
       <Navbar />
       <div className="socialMediaServiceListDetailContainer">
         <div className="socialMediaHeadContainer">
-          <h1 className="socialMediaHero-title">Social Media Marketing</h1>
+          <h1 className="socialMediaHero-title">Content Marketing</h1>
           <p className="socialMediaHero-description">
             Transform your brand's digital presence with our comprehensive
-            social media marketing services. We create data-driven strategies
-            that build authentic connections, engage your audience, and drive
+            content marketing services. We create data-driven strategies that
+            build authentic connections, engage your audience, and drive
             measurable business results across all major platforms.
           </p>
           <div className="socialMediaHero-image">
