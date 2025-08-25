@@ -225,7 +225,6 @@
 }
 
 .seoTech-category {
-  background: rgb(48, 44, 44);
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
@@ -249,11 +248,20 @@
   font-size: 0.9rem;
   text-align: center;
   transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .seoTech-item:hover {
   color: #ffffff;
   background: rgb(24, 22, 22);
+}
+
+.seoTech-item-icon {
+  color: #1083b9;
+  font-size: 2rem;
 }
 
 .seoBenefits-grid {

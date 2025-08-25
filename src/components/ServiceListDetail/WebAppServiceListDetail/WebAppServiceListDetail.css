@@ -163,7 +163,7 @@
   border-radius: 50%;
 }
 
-.webAppprocess-webAppcard {
+.webAppprocess-card {
   background: rgba(31, 41, 55, 0.3);
   backdrop-filter: blur(10px);
   padding: 24px;
@@ -234,10 +234,19 @@
   font-size: 0.9rem;
   transition: background-color 0.3s ease;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .webApptech-item:hover {
   background: rgba(75, 85, 99, 0.5);
+}
+
+.webApptech-item-icon {
+  font-size: 2rem;
+  color: #06b6d4;
 }
 
 .webAppbenefits-grid {
@@ -272,7 +281,7 @@
   font-size: 0.9rem;
 }
 
-.webAppcta-webAppcard {
+.webAppcta-card webAppcard {
   background: linear-gradient(
     135deg,
     rgba(6, 182, 212, 0.1),

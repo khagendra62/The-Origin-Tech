@@ -6,6 +6,23 @@ import Background from "../../Background/Background";
 import WhatsappAndGoToTop from "../../WhatsappAndGoToTop/WhatsappAndGoToTop";
 import Footer from "../../Footer/Footer";
 
+import {
+  SiGoogleanalytics,
+  SiSemrush,
+  SiUber,
+  SiHotjar,
+  SiYoast,
+  SiPagespeedinsights,
+  SiXml,
+} from "react-icons/si";
+import { TbMilitaryRank } from "react-icons/tb";
+import { SiBuzzfeed } from "react-icons/si";
+import { GiOrganigram } from "react-icons/gi";
+import { GiFloatingTentacles } from "react-icons/gi";
+import { FaRankingStar } from "react-icons/fa6";
+import { MdAnalytics, MdSettings } from "react-icons/md";
+import { MdQueryStats } from "react-icons/md";
+
 const SEOServiceListDetail = () => {
   return (
     <>
@@ -577,44 +594,102 @@ const SEOServiceListDetail = () => {
           <div className="seoTech-grid">
             <div className="seoTech-category">
               <h4 className="seoTech-category-title">Research Tools</h4>
-              <div className="seoTech-item">Google Keyword Planner</div>
-              <div className="seoTech-item">SEMrush</div>
-              <div className="seoTech-item">Ahrefs</div>
-              <div className="seoTech-item">Moz Pro</div>
-              <div className="seoTech-item">Ubersuggest</div>
+              <div className="seoTech-item">
+                <SiGoogleanalytics className="seoTech-item-icon" /> Google
+                Keyword Planner
+              </div>
+              <div className="seoTech-item">
+                <SiSemrush className="seoTech-item-icon" /> SEMrush
+              </div>
+              {/* <div className="seoTech-item">
+                <SiAhrefs className="seoTech-item-icon" /> Ahrefs
+              </div> */}
+              {/* <div className="seoTech-item">
+                <SiMoz className="seoTech-item-icon" /> Moz Pro
+              </div> */}
+              <div className="seoTech-item">
+                <SiUber className="seoTech-item-icon" /> Ubersuggest
+              </div>
             </div>
+
             <div className="seoTech-category">
               <h4 className="seoTech-category-title">Analytics</h4>
-              <div className="seoTech-item">Google Analytics</div>
-              <div className="seoTech-item">Search Console</div>
-              <div className="seoTech-item">Google Tag Manager</div>
-              <div className="seoTech-item">Hotjar</div>
-              <div className="seoTech-item">Screaming Frog</div>
+              <div className="seoTech-item">
+                <SiGoogleanalytics className="seoTech-item-icon" /> Google
+                Analytics
+              </div>
+              <div className="seoTech-item">
+                <MdAnalytics className="seoTech-item-icon" /> Search Console
+              </div>
+              <div className="seoTech-item">
+                <MdSettings className="seoTech-item-icon" /> Google Tag Manager
+              </div>
+              <div className="seoTech-item">
+                <SiHotjar className="seoTech-item-icon" /> Hotjar
+              </div>
+              {/* <div className="seoTech-item">
+                <SiScreamingfrog className="seoTech-item-icon" /> Screaming Frog
+              </div> */}
             </div>
+
             <div className="seoTech-category">
               <h4 className="seoTech-category-title">Technical SEO</h4>
-              <div className="seoTech-item">PageSpeed Insights</div>
-              <div className="seoTech-item">GTmetrix</div>
-              <div className="seoTech-item">Schema.org</div>
-              <div className="seoTech-item">XML Sitemaps</div>
-              <div className="seoTech-item">Robots.txt</div>
+              <div className="seoTech-item">
+                <SiPagespeedinsights className="seoTech-item-icon" /> PageSpeed
+                Insights
+              </div>
+              <div className="seoTech-item">
+                <GiFloatingTentacles className="seoTech-item-icon" /> GTmetrix
+              </div>
+              <div className="seoTech-item">
+                <GiOrganigram className="seoTech-item-icon" /> Schema.org
+              </div>
+              <div className="seoTech-item">
+                <SiXml className="seoTech-item-icon" /> XML Sitemaps
+              </div>
+              {/* <div className="seoTech-item">
+                <SiRobotsdottxt className="seoTech-item-icon" /> Robots.txt
+              </div> */}
             </div>
-            <div className="seoTech-category">
-              <h4 className="seoTech-category-title">Content Tools</h4>
-              <div className="seoTech-item">Yoast SEO</div>
-              <div className="seoTech-item">Surfer SEO</div>
-              <div className="seoTech-item">Clearscope</div>
-              <div className="seoTech-item">BuzzSumo</div>
-              <div className="seoTech-item">Answer The Public</div>
-            </div>
+
             <div className="seoTech-category">
               <h4 className="seoTech-category-title">Monitoring</h4>
-              <div className="seoTech-item">Rank Tracker</div>
-              <div className="seoTech-item">SERPWatcher</div>
-              <div className="seoTech-item">AccuRanker</div>
-              <div className="seoTech-item">Wincher</div>
-              <div className="seoTech-item">Serpstat</div>
+              <div className="seoTech-item">
+                <TbMilitaryRank className="seoTech-item-icon" /> Rank Tracker
+              </div>
+              <div className="seoTech-item">
+                <FaRankingStar className="seoTech-item-icon" /> AccuRanker
+              </div>
+              <div className="seoTech-item">
+                <MdQueryStats className="seoTech-item-icon" /> Serpstat
+              </div>
+              <div className="seoTech-item">
+                <MdAnalytics className="seoTech-item-icon" /> SERPWatcher
+              </div>
+              <div className="seoTech-item">
+                <MdSettings className="seoTech-item-icon" /> Wincher
+              </div>
             </div>
+
+            {/* <div className="seoTech-category">
+              <h4 className="seoTech-category-title">Content Tools</h4>
+              <div className="seoTech-item">
+                <SiYoast className="seoTech-item-icon" /> Yoast SEO
+              </div> */}
+            {/* <div className="seoTech-item">
+                <SiSurferseo className="seoTech-item-icon" /> Surfer SEO
+              </div> */}
+            {/* <div className="seoTech-item">
+                <SiClearscope className="seoTech-item-icon" /> Clearscope
+              </div> */}
+            {/* <div className="seoTech-item">
+                <SiBuzzfeed className="seoTech-item-icon" /> BuzzSumo
+              </div> */}
+            {/* <div className="seoTech-item">
+                <SiAnswerthepublic className="seoTech-item-icon" /> Answer The
+                Public
+              </div> */}
+            {/* </div> */}
           </div>
         </div>
 

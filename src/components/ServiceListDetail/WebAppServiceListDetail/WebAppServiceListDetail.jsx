@@ -5,6 +5,36 @@ import Form from "../../Form/Form";
 import Background from "../../Background/Background";
 import WhatsappAndGoToTop from "../../WhatsappAndGoToTop/WhatsappAndGoToTop";
 import Footer from "../../Footer/Footer";
+import {
+  FaReact,
+  FaVuejs,
+  FaAngular,
+  FaNode,
+  FaPython,
+  FaPhp,
+  FaDocker,
+  FaAws,
+  FaSwift,
+} from "react-icons/fa";
+
+import { FaFlutter } from "react-icons/fa6";
+
+import { RiNextjsFill } from "react-icons/ri";
+import {
+  SiTypescript,
+  SiDjango,
+  SiExpress,
+  SiGooglecloud,
+  SiRedis,
+  SiMysql,
+  SiMongodb,
+  SiKotlin,
+} from "react-icons/si";
+import { TbBrandReactNative, TbBrandXamarin } from "react-icons/tb";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { IoLogoFirebase } from "react-icons/io5";
+import { VscAzure } from "react-icons/vsc";
+import { AiOutlineKubernetes } from "react-icons/ai";
 
 const WebAppServiceListDetail = () => {
   return (
@@ -422,43 +452,118 @@ const WebAppServiceListDetail = () => {
           <div className="webApptech-webAppgrid webApptech webApptech-grid">
             <div className="webApptech-category">
               <h4 className="webApptech-category-title">Frontend</h4>
-              <div className="webApptech-item">React</div>
-              <div className="webApptech-item">Vue.js</div>
-              <div className="webApptech-item">Angular</div>
-              <div className="webApptech-item">Next.js</div>
-              <div className="webApptech-item">TypeScript</div>
+              <div className="webApptech-item">
+                <FaReact className="webApptech-item-icon" />
+                React
+              </div>
+              <div className="webApptech-item">
+                <FaVuejs className="webApptech-item-icon" />
+                Vue.js
+              </div>
+              <div className="webApptech-item">
+                <FaAngular className="webApptech-item-icon" />
+                Angular
+              </div>
+              <div className="webApptech-item">
+                <RiNextjsFill className="webApptech-item-icon" />
+                Next.js
+              </div>
+              <div className="webApptech-item">
+                <SiTypescript className="webApptech-item-icon" />
+                TypeScript
+              </div>
             </div>
             <div className="webApptech-category">
               <h4 className="webApptech-category-title">Backend</h4>
-              <div className="webApptech-item">Node.js</div>
-              <div className="webApptech-item">Python</div>
-              <div className="webApptech-item">PHP</div>
-              <div className="webApptech-item">Express.js</div>
-              <div className="webApptech-item">Django</div>
+              <div className="webApptech-item">
+                <FaNode className="webApptech-item-icon" />
+                Node.js
+              </div>
+              <div className="webApptech-item">
+                <FaPython className="webApptech-item-icon" />
+                Python
+              </div>
+              <div className="webApptech-item">
+                <FaPhp className="webApptech-item-icon" />
+                PHP
+              </div>
+              <div className="webApptech-item">
+                <SiExpress className="webApptech-item-icon" />
+                Express.js
+              </div>
+              <div className="webApptech-item">
+                <SiDjango className="webApptech-item-icon" />
+                Django
+              </div>
             </div>
             <div className="webApptech-category">
               <h4 className="webApptech-category-title">Mobile</h4>
-              <div className="webApptech-item">React Native</div>
-              <div className="webApptech-item">Flutter</div>
-              <div className="webApptech-item">Swift</div>
-              <div className="webApptech-item">Kotlin</div>
-              <div className="webApptech-item">Xamarin</div>
+              <div className="webApptech-item">
+                <TbBrandReactNative className="webApptech-item-icon" />
+                React Native
+              </div>
+              <div className="webApptech-item">
+                <FaFlutter className="webApptech-item-icon" />
+                Flutter
+              </div>
+              <div className="webApptech-item">
+                <FaSwift className="webApptech-item-icon" />
+                Swift
+              </div>
+              <div className="webApptech-item">
+                <SiKotlin className="webApptech-item-icon" />
+                Kotlin
+              </div>
+              <div className="webApptech-item">
+                <TbBrandXamarin className="webApptech-item-icon" />
+                Xamarin
+              </div>
             </div>
             <div className="webApptech-category">
               <h4 className="webApptech-category-title">Database</h4>
-              <div className="webApptech-item">MongoDB</div>
-              <div className="webApptech-item">PostgreSQL</div>
-              <div className="webApptech-item">MySQL</div>
-              <div className="webApptech-item">Firebase</div>
-              <div className="webApptech-item">Redis</div>
+              <div className="webApptech-item">
+                <SiMongodb className="webApptech-item-icon" />
+                MongoDB
+              </div>
+              <div className="webApptech-item">
+                <BiLogoPostgresql className="webApptech-item-icon" />
+                PostgreSQL
+              </div>
+              <div className="webApptech-item">
+                <SiMysql className="webApptech-item-icon" />
+                MySQL
+              </div>
+              <div className="webApptech-item">
+                <IoLogoFirebase className="webApptech-item-icon" />
+                Firebase
+              </div>
+              <div className="webApptech-item">
+                <SiRedis className="webApptech-item-icon" />
+                Redis
+              </div>
             </div>
             <div className="webApptech-category">
               <h4 className="webApptech-category-title">Cloud</h4>
-              <div className="webApptech-item">AWS</div>
-              <div className="webApptech-item">Google Cloud</div>
-              <div className="webApptech-item">Azure</div>
-              <div className="webApptech-item">Docker</div>
-              <div className="webApptech-item">Kubernetes</div>
+              <div className="webApptech-item">
+                <FaAws className="webApptech-item-icon" />
+                AWS
+              </div>
+              <div className="webApptech-item">
+                <SiGooglecloud className="webApptech-item-icon" />
+                Google Cloud
+              </div>
+              <div className="webApptech-item">
+                <VscAzure className="webApptech-item-icon" />
+                Azure
+              </div>
+              <div className="webApptech-item">
+                <FaDocker className="webApptech-item-icon" />
+                Docker
+              </div>
+              <div className="webApptech-item">
+                <AiOutlineKubernetes className="webApptech-item-icon" />
+                Kubernetes
+              </div>
             </div>
           </div>
         </div>
