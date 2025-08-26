@@ -115,7 +115,7 @@ const ServiceList = () => {
 
       <div className="service-container reverse">
         <div className="service-content">
-          <h2>Seo - Search Engine Optimization</h2>
+          <h2>SEO - Search Engine Optimization</h2>
           <p>
             We specialize in Search Engine Optimization (SEO) to help your brand
             increase its online visibility and organic traffic. Our strategies

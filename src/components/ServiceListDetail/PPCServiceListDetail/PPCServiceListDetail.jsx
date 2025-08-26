@@ -5,6 +5,20 @@ import Form from "../../Form/Form";
 import Background from "../../Background/Background";
 import WhatsappAndGoToTop from "../../WhatsappAndGoToTop/WhatsappAndGoToTop";
 import Footer from "../../Footer/Footer";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaLinkedin,
+  FaTiktok,
+} from "react-icons/fa";
+
+import { SiGoogleanalytics, SiHootsuite, SiBuffer } from "react-icons/si";
+import { LuSprout } from "react-icons/lu";
+
+import { SiSemrush, SiUber, SiHotjar } from "react-icons/si";
+import { MdAnalytics, MdSettings } from "react-icons/md";
+import { MdQueryStats } from "react-icons/md";
 
 const PPCServiceListDetail = () => {
   return (
@@ -70,10 +84,7 @@ const PPCServiceListDetail = () => {
                   </feMerge>
                 </filter>
               </defs>
-
               <rect width="600" height="300" fill="url(#ppcBgGradient)" />
-
-              {/* Ad particles */}
               <circle cx="100" cy="60" r="3" fill="#f59e0b" opacity="0.8">
                 <animate
                   attributeName="opacity"
@@ -98,8 +109,6 @@ const PPCServiceListDetail = () => {
                   repeatCount="indefinite"
                 />
               </circle>
-
-              {/* Google Ads Interface */}
               <rect
                 x="80"
                 y="120"
@@ -110,8 +119,6 @@ const PPCServiceListDetail = () => {
                 stroke="url(#ppcGradient)"
                 stroke-width="2"
               />
-
-              {/* Header */}
               <rect
                 x="80"
                 y="120"
@@ -131,8 +138,6 @@ const PPCServiceListDetail = () => {
               >
                 Google Ads
               </text>
-
-              {/* Ad Preview */}
               <g transform="translate(90, 160)">
                 <rect width="8" height="8" rx="2" fill="#f59e0b" />
                 <text
@@ -194,8 +199,6 @@ const PPCServiceListDetail = () => {
                   Click
                 </text>
               </g>
-
-              {/* Campaign Metrics */}
               <g transform="translate(90, 220)">
                 <text
                   x="0"
@@ -225,8 +228,6 @@ const PPCServiceListDetail = () => {
                   ROI: 400%
                 </text>
               </g>
-
-              {/* Analytics Dashboard */}
               <rect
                 x="350"
                 y="120"
@@ -248,8 +249,6 @@ const PPCServiceListDetail = () => {
               >
                 Campaign Analytics
               </text>
-
-              {/* Performance Chart */}
               <g transform="translate(370, 160)">
                 <rect
                   x="0"
@@ -316,7 +315,6 @@ const PPCServiceListDetail = () => {
                   fill="#b45309"
                 />
 
-                {/* Trend Line */}
                 <polyline
                   points="7,55 27,40 47,30 67,25 87,20 107,35 127,45 147,28"
                   fill="none"
@@ -325,8 +323,6 @@ const PPCServiceListDetail = () => {
                   opacity="0.8"
                 />
               </g>
-
-              {/* Connection line */}
               <path
                 d="M280 190 Q315 150 350 190"
                 stroke="url(#ppcGradient)"
@@ -342,8 +338,6 @@ const PPCServiceListDetail = () => {
                   repeatCount="indefinite"
                 />
               </path>
-
-              {/* Platform Icons */}
               <g transform="translate(50, 50)">
                 <rect
                   width="70"
@@ -375,7 +369,6 @@ const PPCServiceListDetail = () => {
                   Ads
                 </text>
               </g>
-
               <g transform="translate(480, 50)">
                 <rect
                   width="70"
@@ -407,8 +400,7 @@ const PPCServiceListDetail = () => {
                   Ads
                 </text>
               </g>
-
-              {/* Cost Per Click Visual */}
+              Click Visual
               <g transform="translate(270, 40)">
                 <rect
                   width="60"
@@ -441,8 +433,6 @@ const PPCServiceListDetail = () => {
                   CLICK
                 </text>
               </g>
-
-              {/* Money/ROI indicators */}
               <g transform="translate(150, 50)">
                 <circle cx="20" cy="20" r="15" fill="rgba(16, 185, 129, 0.3)" />
                 <text
@@ -616,35 +606,72 @@ const PPCServiceListDetail = () => {
             </div>
             <div className="ppcTech-category">
               <h4 className="ppcTech-category-title">Social Platforms</h4>
-              <div className="ppcTech-item">Facebook Ads</div>
-              <div className="ppcTech-item">Instagram Ads</div>
-              <div className="ppcTech-item">LinkedIn Ads</div>
-              <div className="ppcTech-item">Twitter Ads</div>
-              <div className="ppcTech-item">TikTok Ads</div>
+              <div className="ppcTech-item">
+                <FaFacebook className="ppcTech-item-icon" /> Facebook
+              </div>
+              <div className="ppcTech-item">
+                <FaInstagram className="ppcTech-item-icon" /> Instagram
+              </div>
+              <div className="ppcTech-item">
+                <FaTwitter className="ppcTech-item-icon" /> Twitter
+              </div>
+              <div className="ppcTech-item">
+                <FaLinkedin className="ppcTech-item-icon" /> LinkedIn
+              </div>
+              <div className="ppcTech-item">
+                <FaTiktok className="ppcTech-item-icon" /> TikTok
+              </div>
             </div>
             <div className="ppcTech-category">
               <h4 className="ppcTech-category-title">Analytics Tools</h4>
-              <div className="ppcTech-item">Google Analytics</div>
-              <div className="ppcTech-item">Google Tag Manager</div>
-              <div className="ppcTech-item">Facebook Pixel</div>
-              <div className="ppcTech-item">Microsoft Clarity</div>
-              <div className="ppcTech-item">Hotjar</div>
+              <div className="ppcTech-item">
+                <SiGoogleanalytics className="ppcTech-item-icon" /> Google
+                Analytics
+              </div>
+              <div className="ppcTech-item">
+                <FaFacebook className="ppcTech-item-icon" /> Facebook Insights
+              </div>
+              <div className="ppcTech-item">
+                <SiHootsuite className="ppcTech-item-icon" /> Hootsuite
+              </div>
+              <div className="ppcTech-item">
+                <LuSprout className="ppcTech-item-icon" /> Sprout Social
+              </div>
+              <div className="ppcTech-item">
+                <SiBuffer className="ppcTech-item-icon" /> Buffer
+              </div>
             </div>
             <div className="ppcTech-category">
-              <h4 className="ppcTech-category-title">Management Tools</h4>
-              <div className="ppcTech-item">Google Ads Editor</div>
-              <div className="ppcTech-item">Optmyzr</div>
-              <div className="ppcTech-item">WordStream</div>
-              <div className="ppcTech-item">SEMrush</div>
-              <div className="ppcTech-item">SpyFu</div>
+              <h4 className="ppcTech-category-title">Research Tools</h4>
+              <div className="ppcTech-item">
+                <SiGoogleanalytics className="ppcTech-item-icon" /> Google
+                Keyword Planner
+              </div>
+              <div className="ppcTech-item">
+                <SiSemrush className="ppcTech-item-icon" /> SEMrush
+              </div>
+              <div className="ppcTech-item">
+                <SiUber className="ppcTech-item-icon" /> Ubersuggest
+              </div>
+              <div className="ppcTech-item">
+                <MdQueryStats className="ppcTech-item-icon" /> Serpstat
+              </div>
             </div>
             <div className="ppcTech-category">
-              <h4 className="ppcTech-category-title">Conversion Tools</h4>
-              <div className="ppcTech-item">Unbounce</div>
-              <div className="ppcTech-item">Leadpages</div>
-              <div className="ppcTech-item">Instapage</div>
-              <div className="ppcTech-item">ClickFunnels</div>
-              <div className="ppcTech-item">Optimizely</div>
+              <h4 className="ppcTech-category-title">Analytics</h4>
+              <div className="ppcTech-item">
+                <SiGoogleanalytics className="ppcTech-item-icon" /> Google
+                Analytics
+              </div>
+              <div className="ppcTech-item">
+                <MdAnalytics className="ppcTech-item-icon" /> Search Console
+              </div>
+              <div className="ppcTech-item">
+                <MdSettings className="ppcTech-item-icon" /> Google Tag Manager
+              </div>
+              <div className="ppcTech-item">
+                <SiHotjar className="ppcTech-item-icon" /> Hotjar
+              </div>
             </div>
           </div>
         </div>

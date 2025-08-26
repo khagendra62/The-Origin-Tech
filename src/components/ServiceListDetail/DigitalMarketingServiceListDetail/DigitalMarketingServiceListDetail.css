@@ -155,6 +155,29 @@
   border-radius: 50%;
 }
 
+.socialMediaTech-item {
+  background: rgba(37, 36, 36, 0.6);
+  color: #ffffff;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.socialMediaTech-item:hover {
+  background: rgba(75, 85, 99, 0.5);
+  border: 1px solid #0babf5;
+}
+
+.socialMediaTech-item-icon {
+  color: #0284c7;
+  font-size: 2rem;
+}
+
 .digitalprocess-card {
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(10px);

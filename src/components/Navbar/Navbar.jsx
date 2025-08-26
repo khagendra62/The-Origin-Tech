@@ -4,12 +4,12 @@ import "./Navbar.css";
 import HamburgerMenu from "./HamburgerMenu";
 import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
-import FormPupup from "../Form/FormPopup/FormPopup";
+// import FormPupup from "../Form/FormPopup/FormPopup";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const [formPopup, setFormPopup] = useState(false);
+  // const [formPopup, setFormPopup] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -77,6 +77,18 @@ const Navbar = () => {
                 onClick={() => window.scrollTo(0, 0)}
               >
                 Contact Us
+              </NavLink>
+            </li>
+
+            <li>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+                to={"/pricing"}
+                onClick={() => window.scrollTo(0, 0)}
+              >
+                Pricing
               </NavLink>
             </li>
           </ul>

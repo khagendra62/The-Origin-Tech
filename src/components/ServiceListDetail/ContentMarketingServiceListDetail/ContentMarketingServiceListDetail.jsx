@@ -5,6 +5,32 @@ import Form from "../../Form/Form";
 import Background from "../../Background/Background";
 import WhatsappAndGoToTop from "../../WhatsappAndGoToTop/WhatsappAndGoToTop";
 import Footer from "../../Footer/Footer";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaLinkedin,
+  FaTiktok,
+} from "react-icons/fa";
+
+import { SiGoogleanalytics, SiHootsuite, SiBuffer } from "react-icons/si";
+import { LuSprout } from "react-icons/lu";
+
+import {
+  SiAdobe,
+  SiCanva,
+  SiFigma,
+  SiAdobepremierepro,
+  SiAdobeaftereffects,
+} from "react-icons/si";
+
+import {
+  FaFacebookSquare,
+  FaInstagramSquare,
+  FaLinkedinIn,
+  FaTwitterSquare,
+} from "react-icons/fa";
+import { SiTiktok } from "react-icons/si";
 
 const ContentMarketingServiceListDetail = () => {
   return (
@@ -487,45 +513,89 @@ const ContentMarketingServiceListDetail = () => {
               <h4 className="socialMediaTech-category-title">
                 Social Platforms
               </h4>
-              <div className="socialMediaTech-item">Facebook</div>
-              <div className="socialMediaTech-item">Instagram</div>
-              <div className="socialMediaTech-item">Twitter</div>
-              <div className="socialMediaTech-item">LinkedIn</div>
-              <div className="socialMediaTech-item">TikTok</div>
+              <div className="socialMediaTech-item">
+                <FaFacebook className="socialMediaTech-item-icon" /> Facebook
+              </div>
+              <div className="socialMediaTech-item">
+                <FaInstagram className="socialMediaTech-item-icon" /> Instagram
+              </div>
+              <div className="socialMediaTech-item">
+                <FaTwitter className="socialMediaTech-item-icon" /> Twitter
+              </div>
+              <div className="socialMediaTech-item">
+                <FaLinkedin className="socialMediaTech-item-icon" /> LinkedIn
+              </div>
+              <div className="socialMediaTech-item">
+                <FaTiktok className="socialMediaTech-item-icon" /> TikTok
+              </div>
             </div>
+
             <div className="socialMediaTech-category">
               <h4 className="socialMediaTech-category-title">
                 Analytics Tools
               </h4>
-              <div className="socialMediaTech-item">Google Analytics</div>
-              <div className="socialMediaTech-item">Facebook Insights</div>
-              <div className="socialMediaTech-item">Hootsuite</div>
-              <div className="socialMediaTech-item">Sprout Social</div>
-              <div className="socialMediaTech-item">Buffer</div>
+              <div className="socialMediaTech-item">
+                <SiGoogleanalytics className="socialMediaTech-item-icon" />{" "}
+                Google Analytics
+              </div>
+              <div className="socialMediaTech-item">
+                <FaFacebook className="socialMediaTech-item-icon" /> Facebook
+                Insights
+              </div>
+              <div className="socialMediaTech-item">
+                <SiHootsuite className="socialMediaTech-item-icon" /> Hootsuite
+              </div>
+              <div className="socialMediaTech-item">
+                <LuSprout className="socialMediaTech-item-icon" /> Sprout Social
+              </div>
+              <div className="socialMediaTech-item">
+                <SiBuffer className="socialMediaTech-item-icon" /> Buffer
+              </div>
             </div>
+
             <div className="socialMediaTech-category">
               <h4 className="socialMediaTech-category-title">Design Tools</h4>
-              <div className="socialMediaTech-item">Adobe Creative Suite</div>
-              <div className="socialMediaTech-item">Canva</div>
-              <div className="socialMediaTech-item">Figma</div>
-              <div className="socialMediaTech-item">After Effects</div>
-              <div className="socialMediaTech-item">Premiere Pro</div>
+              <div className="socialMediaTech-item">
+                <SiAdobe className="socialMediaTech-item-icon" /> Adobe Creative
+                Suite
+              </div>
+              <div className="socialMediaTech-item">
+                <SiCanva className="socialMediaTech-item-icon" /> Canva
+              </div>
+              <div className="socialMediaTech-item">
+                <SiFigma className="socialMediaTech-item-icon" /> Figma
+              </div>
+              <div className="socialMediaTech-item">
+                <SiAdobeaftereffects className="socialMediaTech-item-icon" />{" "}
+                After Effects
+              </div>
+              <div className="socialMediaTech-item">
+                <SiAdobepremierepro className="socialMediaTech-item-icon" />{" "}
+                Premiere Pro
+              </div>
             </div>
-            <div className="socialMediaTech-category">
-              <h4 className="socialMediaTech-category-title">Management</h4>
-              <div className="socialMediaTech-item">Later</div>
-              <div className="socialMediaTech-item">Planoly</div>
-              <div className="socialMediaTech-item">Creator Studio</div>
-              <div className="socialMediaTech-item">Agorapulse</div>
-              <div className="socialMediaTech-item">SocialBee</div>
-            </div>
+
             <div className="socialMediaTech-category">
               <h4 className="socialMediaTech-category-title">Advertising</h4>
-              <div className="socialMediaTech-item">Facebook Ads</div>
-              <div className="socialMediaTech-item">Instagram Ads</div>
-              <div className="socialMediaTech-item">LinkedIn Ads</div>
-              <div className="socialMediaTech-item">Twitter Ads</div>
-              <div className="socialMediaTech-item">TikTok Ads</div>
+              <div className="socialMediaTech-item">
+                <FaFacebookSquare className="socialMediaTech-item-icon" />{" "}
+                Facebook Ads
+              </div>
+              <div className="socialMediaTech-item">
+                <FaInstagramSquare className="socialMediaTech-item-icon" />{" "}
+                Instagram Ads
+              </div>
+              <div className="socialMediaTech-item">
+                <FaLinkedinIn className="socialMediaTech-item-icon" /> LinkedIn
+                Ads
+              </div>
+              <div className="socialMediaTech-item">
+                <FaTwitterSquare className="socialMediaTech-item-icon" />{" "}
+                Twitter Ads
+              </div>
+              <div className="socialMediaTech-item">
+                <SiTiktok className="socialMediaTech-item-icon" /> TikTok Ads
+              </div>
             </div>
           </div>
         </div>

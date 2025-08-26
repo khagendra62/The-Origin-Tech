@@ -2,10 +2,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home/Home";
 import Services from "./pages/Services/Services";
-import Solutions from "./pages/Solutions/Solutions";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import OurWork from "./pages/OurWork/OurWork";
 import ContactUs from "./pages/ContactUs/ContactUs";
+import Pricing from "./pages/Pricing/Pricing";
 import NoPage from "./pages/NoPage/NoPage";
 import FormPupup from "./components/Form/FormPopup/FormPopup";
 import WebAppServiceListDetail from "./components/ServiceListDetail/WebAppServiceListDetail/WebAppServiceListDetail";
@@ -23,11 +23,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/solutions" element={<Solutions />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/ourwork" element={<OurWork />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/formfilling" element={<FormPupup />} />
+          <Route path="/pricing" element={<Pricing />} />
           <Route path="/*" element={<NoPage />} />
           <Route
             path="/services/WebAppServiceListDetail"

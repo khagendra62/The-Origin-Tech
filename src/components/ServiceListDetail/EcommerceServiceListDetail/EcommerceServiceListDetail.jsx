@@ -5,6 +5,31 @@ import Form from "../../Form/Form";
 import Background from "../../Background/Background";
 import WhatsappAndGoToTop from "../../WhatsappAndGoToTop/WhatsappAndGoToTop";
 import Footer from "../../Footer/Footer";
+import {
+  FaReact,
+  FaVuejs,
+  FaAngular,
+  FaNode,
+  FaPython,
+  FaPhp,
+  FaDocker,
+  FaAws,
+} from "react-icons/fa";
+
+import { RiNextjsFill } from "react-icons/ri";
+import {
+  SiTypescript,
+  SiDjango,
+  SiExpress,
+  SiGooglecloud,
+  SiRedis,
+  SiMysql,
+  SiMongodb,
+} from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { IoLogoFirebase } from "react-icons/io5";
+import { VscAzure } from "react-icons/vsc";
+import { AiOutlineKubernetes } from "react-icons/ai";
 
 const EcommerceServiceListDetail = () => {
   return (
@@ -74,7 +99,6 @@ const EcommerceServiceListDetail = () => {
 
               <rect width="600" height="300" fill="url(#ecommerceBgGradient)" />
 
-              {/* Floating particles */}
               <circle cx="120" cy="70" r="3" fill="#00d4ff" opacity="0.8">
                 <animate
                   attributeName="opacity"
@@ -100,7 +124,6 @@ const EcommerceServiceListDetail = () => {
                 />
               </circle>
 
-              {/* Laptop/Store Interface */}
               <rect
                 x="80"
                 y="120"
@@ -112,7 +135,6 @@ const EcommerceServiceListDetail = () => {
                 strokeWidth="2"
               />
 
-              {/* Screen content */}
               <rect
                 x="90"
                 y="135"
@@ -130,7 +152,6 @@ const EcommerceServiceListDetail = () => {
                 fill="#1f2937"
               />
 
-              {/* Product cards */}
               <rect
                 x="100"
                 y="160"
@@ -156,7 +177,6 @@ const EcommerceServiceListDetail = () => {
                 fill="#374151"
               />
 
-              {/* Buy button */}
               <rect
                 x="100"
                 y="200"
@@ -176,7 +196,6 @@ const EcommerceServiceListDetail = () => {
                 BUY NOW
               </text>
 
-              {/* Shopping Cart */}
               <g transform="translate(350, 140)">
                 <rect
                   width="180"
@@ -187,7 +206,6 @@ const EcommerceServiceListDetail = () => {
                   strokeWidth="2"
                 />
 
-                {/* Cart icon */}
                 <path
                   d="M40 40h100l-10 60H50z"
                   fill="none"
@@ -197,7 +215,6 @@ const EcommerceServiceListDetail = () => {
                 <circle cx="60" cy="110" r="5" fill="#00d4ff" />
                 <circle cx="120" cy="110" r="5" fill="#00d4ff" />
 
-                {/* Items in cart */}
                 <rect
                   x="50"
                   y="50"
@@ -223,7 +240,6 @@ const EcommerceServiceListDetail = () => {
                   fill="#00d4ff"
                 />
 
-                {/* Total */}
                 <text
                   x="90"
                   y="35"
@@ -236,7 +252,6 @@ const EcommerceServiceListDetail = () => {
                 </text>
               </g>
 
-              {/* Payment Icons */}
               <g transform="translate(50, 270)">
                 <rect
                   width="40"
@@ -292,7 +307,6 @@ const EcommerceServiceListDetail = () => {
                 </text>
               </g>
 
-              {/* Security badge */}
               <g transform="translate(480, 270)">
                 <circle cx="15" cy="12" r="12" fill="rgba(0, 212, 255, 0.2)" />
                 <path
@@ -306,7 +320,6 @@ const EcommerceServiceListDetail = () => {
                 </text>
               </g>
 
-              {/* Analytics Chart */}
               <g transform="translate(280, 50)">
                 <rect
                   width="60"
@@ -461,45 +474,97 @@ const EcommerceServiceListDetail = () => {
         <div className="ecommerceTech-section">
           <h2 className="ecommerceSection-title">Platforms & Technologies</h2>
           <div className="ecommerceTech-grid">
-            <div className="ecommerceTech-category">
-              <h4 className="ecommerceTech-category-title">Platforms</h4>
-              <div className="ecommerceTech-item">Shopify</div>
-              <div className="ecommerceTech-item">WooCommerce</div>
-              <div className="ecommerceTech-item">Magento</div>
-              <div className="ecommerceTech-item">BigCommerce</div>
-              <div className="ecommerceTech-item">Custom Solutions</div>
+            <div className="webApptech-category">
+              <h4 className="webApptech-category-title">Frontend</h4>
+              <div className="webApptech-item">
+                <FaReact className="webApptech-item-icon" />
+                React
+              </div>
+              <div className="webApptech-item">
+                <FaVuejs className="webApptech-item-icon" />
+                Vue.js
+              </div>
+              <div className="webApptech-item">
+                <FaAngular className="webApptech-item-icon" />
+                Angular
+              </div>
+              <div className="webApptech-item">
+                <RiNextjsFill className="webApptech-item-icon" />
+                Next.js
+              </div>
+              <div className="webApptech-item">
+                <SiTypescript className="webApptech-item-icon" />
+                TypeScript
+              </div>
             </div>
-            <div className="ecommerceTech-category">
-              <h4 className="ecommerceTech-category-title">Payment Gateways</h4>
-              <div className="ecommerceTech-item">Stripe</div>
-              <div className="ecommerceTech-item">PayPal</div>
-              <div className="ecommerceTech-item">Square</div>
-              <div className="ecommerceTech-item">Razorpay</div>
-              <div className="ecommerceTech-item">Authorize.Net</div>
+            <div className="webApptech-category">
+              <h4 className="webApptech-category-title">Backend</h4>
+              <div className="webApptech-item">
+                <FaNode className="webApptech-item-icon" />
+                Node.js
+              </div>
+              <div className="webApptech-item">
+                <FaPython className="webApptech-item-icon" />
+                Python
+              </div>
+              <div className="webApptech-item">
+                <FaPhp className="webApptech-item-icon" />
+                PHP
+              </div>
+              <div className="webApptech-item">
+                <SiExpress className="webApptech-item-icon" />
+                Express.js
+              </div>
+              <div className="webApptech-item">
+                <SiDjango className="webApptech-item-icon" />
+                Django
+              </div>
             </div>
-            <div className="ecommerceTech-category">
-              <h4 className="ecommerceTech-category-title">Analytics</h4>
-              <div className="ecommerceTech-item">Google Analytics</div>
-              <div className="ecommerceTech-item">Google Tag Manager</div>
-              <div className="ecommerceTech-item">Hotjar</div>
-              <div className="ecommerceTech-item">Klaviyo</div>
-              <div className="ecommerceTech-item">Mixpanel</div>
+            <div className="webApptech-category">
+              <h4 className="webApptech-category-title">Database</h4>
+              <div className="webApptech-item">
+                <SiMongodb className="webApptech-item-icon" />
+                MongoDB
+              </div>
+              <div className="webApptech-item">
+                <BiLogoPostgresql className="webApptech-item-icon" />
+                PostgreSQL
+              </div>
+              <div className="webApptech-item">
+                <SiMysql className="webApptech-item-icon" />
+                MySQL
+              </div>
+              <div className="webApptech-item">
+                <IoLogoFirebase className="webApptech-item-icon" />
+                Firebase
+              </div>
+              <div className="webApptech-item">
+                <SiRedis className="webApptech-item-icon" />
+                Redis
+              </div>
             </div>
-            <div className="ecommerceTech-category">
-              <h4 className="ecommerceTech-category-title">Marketing Tools</h4>
-              <div className="ecommerceTech-item">Mailchimp</div>
-              <div className="ecommerceTech-item">Constant Contact</div>
-              <div className="ecommerceTech-item">HubSpot</div>
-              <div className="ecommerceTech-item">Yotpo</div>
-              <div className="ecommerceTech-item">Privy</div>
-            </div>
-            <div className="ecommerceTech-category">
-              <h4 className="ecommerceTech-category-title">Infrastructure</h4>
-              <div className="ecommerceTech-item">AWS</div>
-              <div className="ecommerceTech-item">Google Cloud</div>
-              <div className="ecommerceTech-item">Cloudflare</div>
-              <div className="ecommerceTech-item">MongoDB</div>
-              <div className="ecommerceTech-item">Redis</div>
+            <div className="webApptech-category">
+              <h4 className="webApptech-category-title">Cloud</h4>
+              <div className="webApptech-item">
+                <FaAws className="webApptech-item-icon" />
+                AWS
+              </div>
+              <div className="webApptech-item">
+                <SiGooglecloud className="webApptech-item-icon" />
+                Google Cloud
+              </div>
+              <div className="webApptech-item">
+                <VscAzure className="webApptech-item-icon" />
+                Azure
+              </div>
+              <div className="webApptech-item">
+                <FaDocker className="webApptech-item-icon" />
+                Docker
+              </div>
+              <div className="webApptech-item">
+                <AiOutlineKubernetes className="webApptech-item-icon" />
+                Kubernetes
+              </div>
             </div>
           </div>
         </div>

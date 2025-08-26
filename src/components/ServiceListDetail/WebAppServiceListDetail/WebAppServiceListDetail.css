@@ -242,6 +242,7 @@
 
 .webApptech-item:hover {
   background: rgba(75, 85, 99, 0.5);
+  border: 1px solid #0babf5;
 }
 
 .webApptech-item-icon {

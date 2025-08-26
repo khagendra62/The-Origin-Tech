@@ -577,25 +577,6 @@ const SocialMediaServiceListDetail = () => {
               </div>
             </div>
 
-            {/* <div className="socialMediaTech-category">
-              <h4 className="socialMediaTech-category-title">Management</h4>
-              <div className="socialMediaTech-item">
-                <SiLater className="socialMediaTech-item-icon"/> Later
-              </div>
-              <div className="socialMediaTech-item">
-                <SiPlanoly className="socialMediaTech-item-icon"/> Planoly
-              </div>
-              <div className="socialMediaTech-item">
-                <FaFacebook className="socialMediaTech-item-icon"/> Creator Studio
-              </div>
-              <div className="socialMediaTech-item">
-                <SiAgorapulse className="socialMediaTech-item-icon"/> Agorapulse
-              </div>
-              <div className="socialMediaTech-item">
-                <SiFacebook className="socialMediaTech-item-icon"/> SocialBee
-              </div>
-            </div> */}
-
             <div className="socialMediaTech-category">
               <h4 className="socialMediaTech-category-title">Advertising</h4>
               <div className="socialMediaTech-item">

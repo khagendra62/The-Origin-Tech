@@ -601,14 +601,11 @@ const SEOServiceListDetail = () => {
               <div className="seoTech-item">
                 <SiSemrush className="seoTech-item-icon" /> SEMrush
               </div>
-              {/* <div className="seoTech-item">
-                <SiAhrefs className="seoTech-item-icon" /> Ahrefs
-              </div> */}
-              {/* <div className="seoTech-item">
-                <SiMoz className="seoTech-item-icon" /> Moz Pro
-              </div> */}
               <div className="seoTech-item">
                 <SiUber className="seoTech-item-icon" /> Ubersuggest
+              </div>
+              <div className="seoTech-item">
+                <MdQueryStats className="seoTech-item-icon" /> Serpstat
               </div>
             </div>
 
@@ -627,9 +624,6 @@ const SEOServiceListDetail = () => {
               <div className="seoTech-item">
                 <SiHotjar className="seoTech-item-icon" /> Hotjar
               </div>
-              {/* <div className="seoTech-item">
-                <SiScreamingfrog className="seoTech-item-icon" /> Screaming Frog
-              </div> */}
             </div>
 
             <div className="seoTech-category">
@@ -647,9 +641,6 @@ const SEOServiceListDetail = () => {
               <div className="seoTech-item">
                 <SiXml className="seoTech-item-icon" /> XML Sitemaps
               </div>
-              {/* <div className="seoTech-item">
-                <SiRobotsdottxt className="seoTech-item-icon" /> Robots.txt
-              </div> */}
             </div>
 
             <div className="seoTech-category">
@@ -661,35 +652,12 @@ const SEOServiceListDetail = () => {
                 <FaRankingStar className="seoTech-item-icon" /> AccuRanker
               </div>
               <div className="seoTech-item">
-                <MdQueryStats className="seoTech-item-icon" /> Serpstat
-              </div>
-              <div className="seoTech-item">
                 <MdAnalytics className="seoTech-item-icon" /> SERPWatcher
               </div>
               <div className="seoTech-item">
                 <MdSettings className="seoTech-item-icon" /> Wincher
               </div>
             </div>
-
-            {/* <div className="seoTech-category">
-              <h4 className="seoTech-category-title">Content Tools</h4>
-              <div className="seoTech-item">
-                <SiYoast className="seoTech-item-icon" /> Yoast SEO
-              </div> */}
-            {/* <div className="seoTech-item">
-                <SiSurferseo className="seoTech-item-icon" /> Surfer SEO
-              </div> */}
-            {/* <div className="seoTech-item">
-                <SiClearscope className="seoTech-item-icon" /> Clearscope
-              </div> */}
-            {/* <div className="seoTech-item">
-                <SiBuzzfeed className="seoTech-item-icon" /> BuzzSumo
-              </div> */}
-            {/* <div className="seoTech-item">
-                <SiAnswerthepublic className="seoTech-item-icon" /> Answer The
-                Public
-              </div> */}
-            {/* </div> */}
           </div>
         </div>
 
