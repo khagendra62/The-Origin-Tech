@@ -30,7 +30,7 @@
 
 .team-image-card img {
   width: 350px;
-  height: 20rem;
+  height: 25rem;
   object-fit: cover;
   border-radius: 15px;
   transition: transform 0.3s ease;

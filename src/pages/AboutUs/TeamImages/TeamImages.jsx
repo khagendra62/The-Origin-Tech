@@ -41,14 +41,14 @@ export default function TeamImages() {
         </a>
 
         <a
-          href={chitra}
+          href={sandip}
           target="_blank"
           rel="noopener noreferrer"
           className="team-image-card"
         >
-          <img src={chitra} alt="Team member image" />
+          <img src={sandip} alt="Team member image" />
           <div className="team-image-info">
-            <h3>Chitra Kumari Thapa</h3>
+            <h3>Sandip Bhatta</h3>
             <p>Back-End Developer</p>
           </div>
         </a>
@@ -78,16 +78,15 @@ export default function TeamImages() {
             <p>Graphic Designer</p>
           </div>
         </a>
-
         <a
-          href={sandip}
+          href={chitra}
           target="_blank"
           rel="noopener noreferrer"
           className="team-image-card"
         >
-          <img src={sandip} alt="Team member image" />
+          <img src={chitra} alt="Team member image" />
           <div className="team-image-info">
-            <h3>Sandip Bhatta</h3>
+            <h3>Chitra Kumari Thapa</h3>
             <p>Back-End Developer</p>
           </div>
         </a>
