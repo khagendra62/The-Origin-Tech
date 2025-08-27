@@ -3,9 +3,9 @@ import Navbar from "../../components/Navbar/Navbar";
 import Form from "../../components/Form/Form";
 import Footer from "../../components/Footer/Footer";
 import Stats from "../../components/Stats/Stats";
-import TeamImages from "./TeamImages/TeamImages";
+import ThreePillars from "./ThreePillars/ThreePillars";
 import WhatsappAndGoToTop from "../../components/WhatsappAndGoToTop/WhatsappAndGoToTop";
-import ImageSlider from "./ImageSlider";
+import TeamImages from "./TeamImages/TeamImages";
 import "./AboutUs.css";
 import { Link } from "react-router-dom";
 
@@ -33,7 +33,7 @@ const AboutUs = () => {
         </div>
       </div>
       <Stats />
-      <ImageSlider />
+      <ThreePillars />
       <TeamImages />
       <Form />
       <Footer />
