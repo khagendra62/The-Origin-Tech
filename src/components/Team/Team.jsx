@@ -4,9 +4,15 @@ import team from "../../assets/team.png";
 
 const Team = () => {
   const locations = [
-    "Everest Global Network",
-    "Sajilo Ticket",
-    "Lakshya Global Network",
+    {
+      name: "Everest Global Network",
+      url: "https://everestglobalnetwork.com.np",
+    },
+    { name: "Sajilo Ticket", url: "https://sajiloticket.com.np" },
+    {
+      name: "Lakshya Global Network",
+      url: "https://lakshyaglobalnetwork.com.np",
+    },
   ];
 
   return (
@@ -89,9 +95,15 @@ const Team = () => {
 
             <div className="locations-container">
               {locations.map((location, index) => (
-                <button key={index} className="location-btn">
-                  {location}
-                </button>
+                <a
+                  href={location.url}
+                  key={index}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}
+                >
+                  <button className="location-btn">{location.name}</button>
+                </a>
               ))}
             </div>
           </div>

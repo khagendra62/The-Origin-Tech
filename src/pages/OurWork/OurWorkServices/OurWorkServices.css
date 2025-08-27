@@ -1,0 +1,65 @@
+.our-work-services-section {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.our-work-services-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.our-work-services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 0 3rem;
+}
+
+.our-work-service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100px;
+  background-color: #141214;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.our-work-service-card:hover {
+  background-color: #222022;
+  transform: translate(5px, -5px);
+}
+
+.our-work-service-icon {
+  min-width: 300px;
+  font-size: 50px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  text-align: center;
+  color: aqua;
+}
+
+.our-work-service-label {
+  background-color: #1c1124;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .our-work-services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .our-work-services-grid {
+    grid-template-columns: 1fr;
+  }
+}

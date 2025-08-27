@@ -49,7 +49,7 @@
   margin-bottom: 60px;
 }
 
-.nav-button {
+.why-origin-tech-nav-button {
   background: rgba(139, 92, 246, 0.2);
   border: 2px solid rgba(139, 92, 246, 0.3);
   color: #5c73f6;
@@ -65,14 +65,14 @@
   z-index: 10;
 }
 
-.nav-button:hover {
+.why-origin-tech-nav-button:hover {
   background: rgba(92, 154, 246, 0.3);
   border-color: #5c73f6;
   transform: scale(1.1);
   box-shadow: 0 8px 25px rgba(139, 92, 246, 0.3);
 }
 
-.nav-button:active {
+.why-origin-tech-nav-button:active {
   transform: scale(0.95);
 }
 
@@ -260,7 +260,7 @@
     gap: 30px;
   }
 
-  .nav-button {
+  .why-origin-tech-nav-button {
     display: none;
   }
 

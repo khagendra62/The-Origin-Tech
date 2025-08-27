@@ -20,7 +20,7 @@ const Pricing = () => {
       plans: [
         {
           name: "Basic",
-          price: 25000,
+          price: 14999,
           features: [
             "Static Website (5 pages)",
             "Responsive Design",
@@ -32,7 +32,7 @@ const Pricing = () => {
         },
         {
           name: "Standard",
-          price: 45000,
+          price: 24999,
           features: [
             "Dynamic Website (10 pages)",
             "CMS Integration",
@@ -45,7 +45,7 @@ const Pricing = () => {
         },
         {
           name: "Premium",
-          price: 75000,
+          price: 34999,
           features: [
             "Custom Web Application",
             "Advanced CMS",
@@ -62,7 +62,7 @@ const Pricing = () => {
       plans: [
         {
           name: "Basic",
-          price: 8000,
+          price: 12999,
           features: [
             "2 Platforms Management",
             "15 Posts per Month",
@@ -73,7 +73,7 @@ const Pricing = () => {
         },
         {
           name: "Standard",
-          price: 15000,
+          price: 17999,
           features: [
             "4 Platforms Management",
             "30 Posts per Month",
@@ -86,7 +86,7 @@ const Pricing = () => {
         },
         {
           name: "Premium",
-          price: 25000,
+          price: 24999,
           features: [
             "6 Platforms Management",
             "60 Posts per Month",
@@ -103,7 +103,7 @@ const Pricing = () => {
       plans: [
         {
           name: "Basic",
-          price: 12000,
+          price: 11999,
           features: [
             "Google Ads Setup",
             "Keyword Research",
@@ -114,7 +114,7 @@ const Pricing = () => {
         },
         {
           name: "Standard",
-          price: 20000,
+          price: 17999,
           features: [
             "Multi-platform Ads",
             "Advanced Targeting",
@@ -127,7 +127,7 @@ const Pricing = () => {
         },
         {
           name: "Premium",
-          price: 35000,
+          price: 27999,
           features: [
             "Enterprise Ad Management",
             "Dynamic Retargeting",
@@ -144,7 +144,7 @@ const Pricing = () => {
       plans: [
         {
           name: "Basic",
-          price: 10000,
+          price: 9999,
           features: [
             "Website Audit",
             "Keyword Research",
@@ -155,7 +155,7 @@ const Pricing = () => {
         },
         {
           name: "Standard",
-          price: 18000,
+          price: 19999,
           features: [
             "Comprehensive SEO Audit",
             "Content Optimization",
@@ -168,7 +168,7 @@ const Pricing = () => {
         },
         {
           name: "Premium",
-          price: 30000,
+          price: 29999,
           features: [
             "Enterprise SEO Strategy",
             "Advanced Link Building",
@@ -185,7 +185,7 @@ const Pricing = () => {
       plans: [
         {
           name: "Basic",
-          price: 6000,
+          price: 7999,
           features: [
             "4 Blog Posts per Month",
             "Content Strategy",
@@ -196,7 +196,7 @@ const Pricing = () => {
         },
         {
           name: "Standard",
-          price: 12000,
+          price: 12999,
           features: [
             "8 Blog Posts per Month",
             "Video Content",
@@ -209,7 +209,7 @@ const Pricing = () => {
         },
         {
           name: "Premium",
-          price: 20000,
+          price: 17999,
           features: [
             "15 Blog Posts per Month",
             "Professional Video Production",
@@ -226,7 +226,7 @@ const Pricing = () => {
       plans: [
         {
           name: "Basic",
-          price: 30000,
+          price: 29999,
           features: [
             "Basic Online Store",
             "Product Catalog (50 items)",
@@ -237,7 +237,7 @@ const Pricing = () => {
         },
         {
           name: "Standard",
-          price: 50000,
+          price: 39999,
           features: [
             "Advanced Online Store",
             "Unlimited Products",
@@ -250,7 +250,7 @@ const Pricing = () => {
         },
         {
           name: "Premium",
-          price: 80000,
+          price: 49999,
           features: [
             "Enterprise Ecommerce Platform",
             "Multi-vendor Support",
@@ -284,7 +284,7 @@ const Pricing = () => {
                   <div className="plan-header">
                     <h3 className="plan-name">{plan.name}</h3>
                     <div className="plan-price">
-                      <span className="currency">₹</span>
+                      <span className="currency">Rs</span>
                       <span className="amount">
                         {plan.price.toLocaleString()}
                       </span>

@@ -5,7 +5,8 @@ import Background from "../../components/Background/Background";
 import WhatsappAndGoToTop from "../../components/WhatsappAndGoToTop/WhatsappAndGoToTop";
 import Footer from "../../components/Footer/Footer";
 import video from "../../assets/3DObject-Asset.mp4";
-import OurWorkServices from "./OurWorkServices";
+import OurWorkServices from "./OurWorkServices/OurWorkServices";
+import OurWorkImages from "./OurWorkImages/OurWorkImages";
 import "./OurWork.css";
 
 const OurWork = () => {
@@ -37,6 +38,7 @@ const OurWork = () => {
         </div>
       </div>
       <OurWorkServices />
+      <OurWorkImages />
       <Form />
       <Footer />
       <Background />

@@ -2,6 +2,14 @@ import FormPopup from "./FormPopup/FormPopup";
 import "./Form.css";
 
 export default function Form() {
+  const handleWhatsAppClick = () => {
+    const phoneNumber = "9704525401";
+    const message = "Hello! I'd like to get in touch.";
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(whatsappUrl, "_blank");
+  };
   return (
     <>
       <div className="container">
@@ -78,7 +86,10 @@ export default function Form() {
                         <path d="M20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z" />
                       </svg>
                     </div>
-                    <a className="contact-details">
+                    <a
+                      className="contact-details"
+                      onClick={handleWhatsAppClick}
+                    >
                       <h3>Live chat</h3>
                       <p>Chat with us</p>
                     </a>

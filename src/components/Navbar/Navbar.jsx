@@ -73,22 +73,21 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
                 }
-                to={"/contactus"}
+                to={"/pricing"}
                 onClick={() => window.scrollTo(0, 0)}
               >
-                Contact Us
+                Pricing
               </NavLink>
             </li>
-
             <li>
               <NavLink
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
                 }
-                to={"/pricing"}
+                to={"/contactus"}
                 onClick={() => window.scrollTo(0, 0)}
               >
-                Pricing
+                Contact Us
               </NavLink>
             </li>
           </ul>

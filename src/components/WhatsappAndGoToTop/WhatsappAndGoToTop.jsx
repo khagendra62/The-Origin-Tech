@@ -1,10 +1,8 @@
 import React from "react";
 import "./WhatsappAndGoToTop.css";
 import { IoCaretUpCircleSharp } from "react-icons/io5";
-import { useNavigate } from "react-router-dom";
 
 const WhatsappAndGoToTop = () => {
-  const navigate = useNavigate();
   const handleNavigation = () => {
     window.scrollTo({
       top: 0,

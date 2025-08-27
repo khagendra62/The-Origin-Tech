@@ -58,6 +58,14 @@
   gap: 15px;
 }
 
+ul li a {
+  color: white;
+}
+
+ul li a:hover {
+  color: #0077b5;
+}
+
 .links-section a {
   color: #cccccc;
   text-decoration: none;
@@ -66,7 +74,7 @@
 }
 
 .links-section a:hover {
-  color: #06d6a0;
+  color: #0077b5;
   padding-left: 10px;
 }
 
@@ -124,7 +132,7 @@
 }
 
 .nav-section li:hover {
-  color: #06d6a0;
+  color: #0077b5;
   padding-left: 10px;
 }
 
@@ -261,7 +269,7 @@
 }
 
 .policies-link:hover {
-  color: #06d6a0;
+  color: #119fec;
 }
 
 .map-container {

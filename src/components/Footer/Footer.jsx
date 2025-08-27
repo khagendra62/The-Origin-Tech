@@ -1,11 +1,23 @@
 import React from "react";
 import "./Footer.css";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const OriginTechWebsite = () => {
   const navigate = useNavigate;
   const handleOnclickContactUs = () => {
     navigate("/contactus");
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
+  const scrollToContactForm = () => {
+    window.scrollTo({
+      top: window.innerHeight,
+      behavior: "smooth",
+    });
   };
   return (
     <div>
@@ -23,19 +35,37 @@ const OriginTechWebsite = () => {
           <div className="links-section">
             <ul>
               <li>
-                <a href="#blog">Services</a>{" "}
+                <Link to="/services" onClick={scrollToTop}>
+                  Services
+                </Link>
               </li>
               <li>
-                <a href="#about">About us</a>
+                <Link to="/about" onClick={scrollToTop}>
+                  About Us
+                </Link>
               </li>
               <li>
-                <a href="#contact">Our Work</a>
+                <Link to="/ourwork" onClick={scrollToTop}>
+                  Our Work
+                </Link>
               </li>
               <li>
-                <a href="#blog">Why Origin Tech</a>{" "}
+                <Link
+                  to="/"
+                  onClick={() =>
+                    window.scrollTo({
+                      top: window.innerHeight * 4,
+                      behavior: "smooth",
+                    })
+                  }
+                >
+                  Why Origin Tech
+                </Link>
               </li>
               <li>
-                <a href="#contact">Contact Us</a>
+                <Link to="/contactus" onClick={scrollToTop}>
+                  Contact Us
+                </Link>
               </li>
             </ul>
           </div>
@@ -50,45 +80,153 @@ const OriginTechWebsite = () => {
               <div className="nav-section">
                 <h3>Services</h3>
                 <ul>
-                  <li>Web and App Dev</li>
-                  <li>Digital Marketing</li>
-                  <li>Social Media</li>
-                  <li>SEO</li>
-                  <li>PPC Advertising</li>
-                  <li>Content Marketing</li>
-                  <li>Ecommerce Solution</li>
+                  <li>
+                    <Link
+                      to="/services/WebAppServiceListDetail"
+                      onClick={scrollToTop}
+                    >
+                      Web and App Dev
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/services/DigitalMarketingServiceListDetail"
+                      onClick={scrollToTop}
+                    >
+                      Digital Marketing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/services/SocialMediaServiceListDetail"
+                      onClick={scrollToTop}
+                    >
+                      Social Media
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/services/SEOServiceListDetail"
+                      onClick={scrollToTop}
+                    >
+                      SEO
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/services/PPCServiceListDetail"
+                      onClick={scrollToTop}
+                    >
+                      PPC Advertising
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/services/ContentMarketingServiceListDetail"
+                      onClick={scrollToTop}
+                    >
+                      Content Marketing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/services/EcommerceServiceListDetail"
+                      onClick={scrollToTop}
+                    >
+                      Ecommerce Solution
+                    </Link>
+                  </li>
                 </ul>
               </div>
 
               <div className="nav-section">
                 <h3>Company</h3>
                 <ul>
-                  <li>About us</li>
-                  <li>Services</li>
-                  <li>Our Work</li>
-                  <li>Projects</li>
-                  <li>Why Origin Tech </li>
-                  <li>Contact us</li>
+                  <li>
+                    <Link to="/services" onClick={scrollToTop}>
+                      Services
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/about" onClick={scrollToTop}>
+                      About Us
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/ourwork" onClick={scrollToTop}>
+                      Our Work
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/"
+                      onClick={() =>
+                        window.scrollTo({
+                          top: window.innerHeight * 4,
+                          behavior: "smooth",
+                        })
+                      }
+                    >
+                      Why Origin Tech
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/contactus" onClick={scrollToTop}>
+                      Contact Us
+                    </Link>
+                  </li>
                 </ul>
               </div>
 
               <div className="nav-section">
                 <h3>Legal</h3>
                 <ul>
-                  <li>Privacy Policy</li>
-                  <li>Terms of Service</li>
-                  <li>Cookie Policy</li>
-                  <li>GDPR Compliance</li>
+                  <li>
+                    <Link to="/contactus" onClick={scrollToContactForm}>
+                      Privacy Policy
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/contactus" onClick={scrollToContactForm}>
+                      Terms of Service
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/contactus" onClick={scrollToContactForm}>
+                      Cookie Policy
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/contactus" onClick={scrollToContactForm}>
+                      GDPR Compliance
+                    </Link>
+                  </li>
                 </ul>
               </div>
 
               <div className="nav-section">
                 <h3>Support</h3>
                 <ul>
-                  <li>Help Center</li>
-                  <li>Documentation</li>
-                  <li>How Our Team Works</li>
-                  <li>Contact Support</li>
+                  <li>
+                    <Link to="/contactus" onClick={scrollToContactForm}>
+                      Help Center
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/contactus" onClick={scrollToContactForm}>
+                      Documentation
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/contactus" onClick={scrollToContactForm}>
+                      How Our Team Works
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/contactus" onClick={scrollToContactForm}>
+                      Contact Support
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </nav>

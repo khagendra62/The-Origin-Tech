@@ -91,7 +91,10 @@ const WhyOrigin = () => {
           onMouseEnter={() => setIsAutoPlaying(false)}
           onMouseLeave={() => setIsAutoPlaying(true)}
         >
-          <button className="nav-button nav-prev" onClick={prevSlide}>
+          <button
+            className="why-origin-tech-nav-button why-origin-tech-nav-prev"
+            onClick={prevSlide}
+          >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
               <path
                 d="M15 18L9 12L15 6"
@@ -126,7 +129,10 @@ const WhyOrigin = () => {
             </div>
           </div>
 
-          <button className="nav-button nav-next" onClick={nextSlide}>
+          <button
+            className="why-origin-tech-nav-button why-origin-tech-nav-next"
+            onClick={nextSlide}
+          >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
               <path
                 d="M9 18L15 12L9 6"

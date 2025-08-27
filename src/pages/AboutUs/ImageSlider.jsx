@@ -1,40 +1,67 @@
 import React from "react";
 import "./ImageSlider.css";
-import khagendra from "../../assets/teamImages/khagendra.jpg";
+import khagendra from "../../assets/teamImages/khagendra.PNG";
+import sabina from "../../assets/teamImages/sabina.PNG";
+import bipul from "../../assets/teamImages/bipul.PNG";
+import sonu from "../../assets/teamImages/sonu.PNG";
+import sandip from "../../assets/teamImages/sandip.PNG";
+import ishab from "../../assets/teamImages/ishab.PNG";
+import chitra from "../../assets/teamImages/chitra.png";
+import mannu from "../../assets/teamImages/mannu.png";
 
 export default function ImageSlider() {
   return (
     <div className="slider">
       <div className="slide-track">
         <a
-          href="https://mcquaig.co.uk/wp-content/uploads/2013/11/Happy-team.jpg"
+          href={bipul}
           target="_blank"
           rel="noopener noreferrer"
           className="card"
         >
-          <img
-            src="https://mcquaig.co.uk/wp-content/uploads/2013/11/Happy-team.jpg"
-            alt="Team Photo 1"
-          />
+          <img src={bipul} alt="Team Photo 3" />
           <div className="info">
-            <h3>John Smith</h3>
-            <p>Project Manager</p>
+            <h3>Bipul Chandra Rijal</h3>
+            <p>IT Intern</p>
           </div>
         </a>
 
         <a
-          href="https://images.unsplash.com/photo-1690378820474-b468b8ee64d3?fm=jpg&q=60&w=3000"
+          href={sabina}
           target="_blank"
           rel="noopener noreferrer"
           className="card"
         >
-          <img
-            src="https://images.unsplash.com/photo-1690378820474-b468b8ee64d3?fm=jpg&q=60&w=3000"
-            alt="Team Photo 2"
-          />
+          <img src={sabina} alt="Team Photo 3" />
           <div className="info">
-            <h3>Emily Johnson</h3>
-            <p>UI/UX Designer</p>
+            <h3>Sabina Deula</h3>
+            <p>IT Intern</p>
+          </div>
+        </a>
+
+        <a
+          href={chitra}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="card"
+        >
+          <img src={chitra} alt="Team Photo 3" />
+          <div className="info">
+            <h3>Chitra Kumari Thapa</h3>
+            <p>IT Intern</p>
+          </div>
+        </a>
+
+        <a
+          href={sonu}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="card"
+        >
+          <img src={sonu} alt="Team Photo 3" />
+          <div className="info">
+            <h3>Sonu Aly</h3>
+            <p>IT Intern</p>
           </div>
         </a>
 
@@ -47,55 +74,46 @@ export default function ImageSlider() {
           <img src={khagendra} alt="Team Photo 3" />
           <div className="info">
             <h3>Khagendra Prasad Awasthi</h3>
-            <p>Frontend Developer</p>
+            <p>IT Intern</p>
           </div>
         </a>
 
         <a
-          href="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?fm=jpg&q=60&w=3000"
+          href={mannu}
           target="_blank"
           rel="noopener noreferrer"
           className="card"
         >
-          <img
-            src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?fm=jpg&q=60&w=3000"
-            alt="Team Photo 4"
-          />
+          <img src={mannu} alt="Team Photo 3" />
           <div className="info">
-            <h3>Sophia Williams</h3>
-            <p>Marketing Lead</p>
+            <h3>Mannu Kumari Singh</h3>
+            <p>IT Intern</p>
           </div>
         </a>
 
         <a
-          href="https://mcquaig.co.uk/wp-content/uploads/2013/11/Happy-team.jpg"
+          href={sandip}
           target="_blank"
           rel="noopener noreferrer"
           className="card"
         >
-          <img
-            src="https://mcquaig.co.uk/wp-content/uploads/2013/11/Happy-team.jpg"
-            alt="Team Photo 1 duplicate"
-          />
+          <img src={sandip} alt="Team Photo 3" />
           <div className="info">
-            <h3>John Smith</h3>
-            <p>Project Manager</p>
+            <h3>Sandip Bhatta</h3>
+            <p>IT Intern</p>
           </div>
         </a>
 
         <a
-          href="https://images.unsplash.com/photo-1690378820474-b468b8ee64d3?fm=jpg&q=60&w=3000"
+          href={ishab}
           target="_blank"
           rel="noopener noreferrer"
           className="card"
         >
-          <img
-            src="https://images.unsplash.com/photo-1690378820474-b468b8ee64d3?fm=jpg&q=60&w=3000"
-            alt="Team Photo 2 duplicate"
-          />
+          <img src={ishab} alt="Team Photo 3" />
           <div className="info">
-            <h3>Emily Johnson</h3>
-            <p>UI/UX Designer</p>
+            <h3>Ishab Das</h3>
+            <p>IT Intern</p>
           </div>
         </a>
       </div>
